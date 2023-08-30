@@ -1,7 +1,7 @@
 
 <modelExtract xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 <header>
-<modelFilename>D:\Объекты\Московское 15 котельная\Git\Project_kot\Kotelnea.dwg</modelFilename>
+<modelFilename>D:\Объекты\Московское 15 котельная\Git222\Project_kot\Kotelnea.dwg</modelFilename>
 <modelUnits>
 <length precision="1" representation="3" unit="3"/>
 <area precision="203" representation="3003" unit="3005"/>
@@ -86,27 +86,6 @@
 <standard key="11371-78" name="11371-78"/>
 <denotation>Шайба C.16.01.08кп.016 ГОСТ 11371-78</denotation>
 <weight>10.98</weight></item></boltSet>
-<boltSet key="3">
-<explodeAble>1</explodeAble>
-<set key="Mus" name="ШГ"/>
-<standard key="7798-70"/>
-<diameter>16.000</diameter>
-<material key="8.8" name="8.8"/>
-<item class="Bolt" diameter="16.000">
-<material key="8.8" name="8.8"/>
-<standard key="7798-70" name="7798-70"/>
-<denotation>Болт М16 - 6gx45.88 ГОСТ 7798-70</denotation>
-<weight>105.70</weight></item>
-<item class="Nut" diameter="16.000">
-<material key="5" name="5"/>
-<standard key="5915-70" name="5915-70"/>
-<denotation>Гайка М16 6Н.5 ГОСТ 5915-70</denotation>
-<weight>37.61</weight></item>
-<item class="Washer" diameter="16.000">
-<material key="5" name="5"/>
-<standard key="11371-78" name="11371-78"/>
-<denotation>Шайба C.16.01.08кп.016 ГОСТ 11371-78</denotation>
-<weight>10.98</weight></item></boltSet>
 <anchorSet key="1">
 <explodeAble>0</explodeAble>
 <set key="MuS" name="ШГ"/>
@@ -137,7 +116,10 @@
 <paintAreaPerMeter>953679.000000</paintAreaPerMeter></profileSection>
 <profileSection key="RUS_IBAC20-93#@§@#I25B1" sectionClass="I">
 <weightPerMeter>25700.000000</weightPerMeter>
-<paintAreaPerMeter>961396.000000</paintAreaPerMeter></profileSection></tables>
+<paintAreaPerMeter>961396.000000</paintAreaPerMeter></profileSection>
+<profileSection key="RUS_L8509_93#@§@#L100x7" sectionClass="W">
+<weightPerMeter>10790.000000</weightPerMeter>
+<paintAreaPerMeter>391415.000000</paintAreaPerMeter></profileSection></tables>
 <parts>
 <mainpart id="1C549" num="К1-2" quantity="1">
 <explicitQuantity>1</explicitQuantity>
@@ -158,7 +140,7 @@
 <paintArea>4157567.417</paintArea>
 <ObjectTopLevel>5357.058</ObjectTopLevel>
 <ObjectBottomLevel>20.001</ObjectBottomLevel>
-<material key="C235" name="С235"/>
+<material key="C255" name="С255"/>
 <coating key="grundiert" name="Грунтовка"/>
 <weight>191173.38</weight>
 <exactWeight>190738.80</exactWeight>
@@ -180,7 +162,7 @@
 <ElementID>4231</ElementID></part></singlepart>
 <singlepart id="1C516" num="29" quantity="2">
 <explicitQuantity>2</explicitQuantity>
-<part ACADID="1A38C" class="Plate" dstvName="t 10" id="1A38B" name="t 10x140x241">
+<part ACADID="1DC3D" class="Plate" dstvName="t 10" id="1DC3C" name="t 10x140x241">
 <explicitQuantity>1</explicitQuantity>
 <role key="Gusset" name="Узловая фасонка"/>
 <length>241.208</length>
@@ -284,7 +266,7 @@
 <holeTolerance>2.000</holeTolerance>
 <mountLocation>0</mountLocation>
 <ConnectedPartsIds>1C51B,F2A6;1C506,F13F;</ConnectedPartsIds></boltPatternOnSite>
-<boltPatternOnSite ACADID="1A39C" class="BoltPattern" id="1A39B" name="M16 x 60 7798-70 8.8 - Нет - 2Ш2Г" nameBolt="Болт М16 - 6gx60.88 ГОСТ 7798-70" num="35" setBoltsType="1" setkey="1">
+<boltPatternOnSite ACADID="1DC4D" class="BoltPattern" id="1DC4C" name="M16 x 60 7798-70 8.8 - Нет - 2Ш2Г" nameBolt="Болт М16 - 6gx60.88 ГОСТ 7798-70" num="35" setBoltsType="1" setkey="1">
 <explicitQuantity>1</explicitQuantity>
 <set key="2Na2W" name="2Ш2Г"/>
 <numBolts>2</numBolts>
@@ -389,7 +371,7 @@
 <paintArea>4157567.417</paintArea>
 <ObjectTopLevel>5357.058</ObjectTopLevel>
 <ObjectBottomLevel>20.001</ObjectBottomLevel>
-<material key="C235" name="С235"/>
+<material key="C255" name="С255"/>
 <coating key="grundiert" name="Грунтовка"/>
 <weight>191173.38</weight>
 <exactWeight>190738.80</exactWeight>
@@ -606,7 +588,7 @@
 <paintArea>2115640.000</paintArea>
 <ObjectTopLevel>4320.001</ObjectTopLevel>
 <ObjectBottomLevel>4200.001</ObjectBottomLevel>
-<material key="C235" name="С235"/>
+<material key="C255" name="С255"/>
 <coating key="grundiert" name="Грунтовка"/>
 <weight>64695.00</weight>
 <exactWeight>64695.00</exactWeight>
@@ -645,7 +627,7 @@
 <paintArea>973939.534</paintArea>
 <ObjectTopLevel>2100.001</ObjectTopLevel>
 <ObjectBottomLevel>10.001</ObjectBottomLevel>
-<material key="C235" name="С235"/>
+<material key="C255" name="С255"/>
 <coating key="grundiert" name="Грунтовка"/>
 <weight>29782.49</weight>
 <exactWeight>29738.49</exactWeight>
@@ -660,7 +642,7 @@
 <angleX2>0.0000</angleX2>
 <angleY2>0.0000</angleY2>
 <SawCutInfo>0</SawCutInfo>
-<ElementID>6065</ElementID>
+<ElementID>6127</ElementID>
 <ElementID>6050</ElementID></part></singlepart>
 <singlepart id="1C50C" num="19" quantity="2">
 <explicitQuantity>2</explicitQuantity>
@@ -682,9 +664,9 @@
 <area1>4900.001</area1>
 <area2>4900.001</area2>
 <contourLength>280.000</contourLength>
+<ElementID>6126</ElementID>
+<ElementID>6125</ElementID>
 <ElementID>6059</ElementID>
-<ElementID>6088</ElementID>
-<ElementID>6089</ElementID>
 <ElementID>6060</ElementID></part>
 <equalpart ACADID="1BA3B" id="1BA83" name="t 10x70x70">
 <explicitQuantity>1</explicitQuantity>
@@ -709,8 +691,8 @@
 <area1>18200.000</area1>
 <area2>18200.000</area2>
 <contourLength>660.000</contourLength>
-<ElementID>6053</ElementID>
-<ElementID>6068</ElementID></part></singlepart>
+<ElementID>6129</ElementID>
+<ElementID>6053</ElementID></part></singlepart>
 <singlepart id="1C517" num="30" quantity="1">
 <explicitQuantity>1</explicitQuantity>
 <part ACADID="1BA39" class="Plate" dstvName="t 10" id="1BA62" name="t 10x210x210">
@@ -732,9 +714,9 @@
 <area1>44100.000</area1>
 <area2>44100.000</area2>
 <contourLength>840.000</contourLength>
-<ElementID>6066</ElementID>
+<ElementID>6124</ElementID>
 <ElementID>6051</ElementID></part></singlepart></proxy>
-<equalpart ACADID="1C16D" explicitQuantity="1" id="1C0B1">
+<equalpart ACADID="1D59E" explicitQuantity="1" id="1D4F0">
 <assemblyWeight>35442.34</assemblyWeight>
 <assemblyExactWeight>35273.83</assemblyExactWeight></equalpart>
 <boltPatternOnSite ACADID="1BA4D" class="BoltPattern" id="1BA88" name="M16 x 60 7798-70 8.8 - Нет - 2Ш2Г" nameBolt="Болт М16 - 6gx60.88 ГОСТ 7798-70" num="35" setBoltsType="1" setkey="1">
@@ -751,9 +733,9 @@
 <holeTolerance>3.000</holeTolerance>
 <mountLocation>0</mountLocation>
 <ConnectedPartsIds>1C50C,1BA9C;1C511,1C231;</ConnectedPartsIds>
-<equalpart ACADID="1C016" id="1C098" name="M16 x 60 7798-70 8.8 - Нет - 2Ш2Г">
+<equalpart ACADID="1D443" id="1D49C" name="M16 x 60 7798-70 8.8 - Нет - 2Ш2Г">
 <explicitQuantity>1</explicitQuantity>
-<ConnectedPartsIds>1C50C,1C0B1;1C511,1C233;</ConnectedPartsIds></equalpart></boltPatternOnSite>
+<ConnectedPartsIds>1C50C,1D4F0;1C511,1D4FA;</ConnectedPartsIds></equalpart></boltPatternOnSite>
 <boltPatternOnSite ACADID="1BA4E" class="BoltPattern" id="1BA85" name="M16 x 60 7798-70 8.8 - Нет - 2Ш2Г" nameBolt="Болт М16 - 6gx60.88 ГОСТ 7798-70" num="35" setBoltsType="1" setkey="1">
 <explicitQuantity>1</explicitQuantity>
 <set key="2Na2W" name="2Ш2Г"/>
@@ -768,281 +750,9 @@
 <holeTolerance>3.000</holeTolerance>
 <mountLocation>0</mountLocation>
 <ConnectedPartsIds>1C50C,1BA9C;1C511,1C231;</ConnectedPartsIds>
-<equalpart ACADID="1C017" id="1C095" name="M16 x 60 7798-70 8.8 - Нет - 2Ш2Г">
+<equalpart ACADID="1D444" id="1D49B" name="M16 x 60 7798-70 8.8 - Нет - 2Ш2Г">
 <explicitQuantity>1</explicitQuantity>
-<ConnectedPartsIds>1C50C,1C0B1;1C511,1C233;</ConnectedPartsIds></equalpart></boltPatternOnSite></mainpart>
-<mainpart id="1C53D" num="СФ4-1" quantity="2">
-<explicitQuantity>2</explicitQuantity>
-<proxy ACADID="1C16B" basepart="1C033" id="1C0A8">
-<assemblyWeight>69091.00</assemblyWeight>
-<assemblyExactWeight>68826.06</assemblyExactWeight>
-<collisionSize x="0.000" y="0.000" z="0.000"/>
-<ApprovalStatus>Не установлено</ApprovalStatus>
-<GalvanizingConstructionClass>Нет</GalvanizingConstructionClass>
-<GalvanizingDetailClass>Нет</GalvanizingDetailClass>
-<GalvanizingConfidence>Нет</GalvanizingConfidence>
-<singlepart id="1C50A" num="17" quantity="1">
-<explicitQuantity>1</explicitQuantity>
-<part ACADID="1BFE8" class="Beam" dstvName="Гн.  120x4" id="1C033" name="Гн.  120x4">
-<explicitQuantity>1</explicitQuantity>
-<role key="JoistVertBar" name="Стойка фахверка"/>
-<length>4540.000</length>
-<paintArea>2115640.000</paintArea>
-<ObjectTopLevel>2220.001</ObjectTopLevel>
-<ObjectBottomLevel>2100.001</ObjectBottomLevel>
-<material key="C235" name="С235"/>
-<coating key="grundiert" name="Грунтовка"/>
-<weight>64695.00</weight>
-<exactWeight>64607.01</exactWeight>
-<weightPerMeter>14250.00</weightPerMeter>
-<density>7850.00</density>
-<preliminaryNum>СФ4</preliminaryNum>
-<section key="RUS_S30245-3#@§@#SHS120x4" name="Гн.  120x4"/>
-<sysLength>4540.000</sysLength>
-<sawLength>4540.000</sawLength>
-<angleX1>0.0000</angleX1>
-<angleY1>0.0000</angleY1>
-<angleX2>0.0000</angleX2>
-<angleY2>0.0000</angleY2>
-<SawCutInfo>0</SawCutInfo>
-<ElementID>6064</ElementID>
-<ElementID>4279</ElementID></part></singlepart>
-<singlepart id="1C518" num="31" quantity="2">
-<explicitQuantity>2</explicitQuantity>
-<part ACADID="1BFEA" class="Plate" dstvName="t 10" id="1C09B" name="t 10x70x140">
-<explicitQuantity>1</explicitQuantity>
-<length>140.000</length>
-<paintArea>23800.000</paintArea>
-<numHoles>2</numHoles>
-<ObjectTopLevel>2100.001</ObjectTopLevel>
-<ObjectBottomLevel>2030.001</ObjectBottomLevel>
-<material key="C235" name="С235"/>
-<coating key="grundiert" name="Грунтовка"/>
-<weight>769.30</weight>
-<exactWeight>725.06</exactWeight>
-<density>7850.00</density>
-<preliminaryNum>СФ4</preliminaryNum>
-<thickness>10.000</thickness>
-<width>70.000</width>
-<area1>9800.000</area1>
-<area2>9800.000</area2>
-<contourLength>420.000</contourLength>
-<ElementID>6061</ElementID>
-<ElementID>6075</ElementID>
-<ElementID>6029</ElementID>
-<ElementID>6090</ElementID></part>
-<equalpart ACADID="1BFEF" id="1C05A" name="t 10x70x140">
-<explicitQuantity>1</explicitQuantity>
-<preliminaryNum>СФ4</preliminaryNum></equalpart></singlepart>
-<singlepart id="1C511" num="24" quantity="2">
-<explicitQuantity>2</explicitQuantity>
-<part ACADID="1BFE7" class="Plate" dstvName="t 10" id="1C084" name="t 10x70x260">
-<explicitQuantity>1</explicitQuantity>
-<length>260.000</length>
-<paintArea>43000.000</paintArea>
-<numHoles>2</numHoles>
-<ObjectTopLevel>2290.001</ObjectTopLevel>
-<ObjectBottomLevel>2030.001</ObjectBottomLevel>
-<material key="C235" name="С235"/>
-<coating key="grundiert" name="Грунтовка"/>
-<weight>1428.70</weight>
-<exactWeight>1384.46</exactWeight>
-<density>7850.00</density>
-<preliminaryNum>СФ4</preliminaryNum>
-<thickness>10.000</thickness>
-<width>70.000</width>
-<area1>18200.000</area1>
-<area2>18200.000</area2>
-<contourLength>660.000</contourLength>
-<ElementID>6055</ElementID>
-<ElementID>6082</ElementID>
-<ElementID>6049</ElementID>
-<ElementID>6084</ElementID></part>
-<equalpart ACADID="1BFF3" id="1C06A" name="t 10x70x260">
-<explicitQuantity>1</explicitQuantity>
-<preliminaryNum>СФ4</preliminaryNum></equalpart></singlepart></proxy>
-<equalpart ACADID="13322" explicitQuantity="1" id="13321">
-<assemblyWeight>69091.00</assemblyWeight>
-<assemblyExactWeight>68826.06</assemblyExactWeight></equalpart>
-<boltPatternOnSite ACADID="1C015" class="BoltPattern" id="1C09D" name="M16 x 60 7798-70 8.8 - Нет - 2Ш2Г" nameBolt="Болт М16 - 6gx60.88 ГОСТ 7798-70" num="35" setBoltsType="1" setkey="1">
-<explicitQuantity>1</explicitQuantity>
-<set key="2Na2W" name="2Ш2Г"/>
-<numBolts>2</numBolts>
-<standard key="7798-70" name="7798-70"/>
-<diameter>16.000</diameter>
-<material key="8.8" name="8.8"/>
-<density>0.00</density>
-<boltLength>60.000</boltLength>
-<fitLength>20.000</fitLength>
-<fitLengthIncrement>0.000</fitLengthIncrement>
-<holeTolerance>3.000</holeTolerance>
-<mountLocation>0</mountLocation>
-<ConnectedPartsIds>1C518,1C0A8;1C519,1C0B1;</ConnectedPartsIds>
-<equalpart ACADID="1BA53" id="1BA8D" name="M16 x 60 7798-70 8.8 - Нет - 2Ш2Г">
-<explicitQuantity>1</explicitQuantity>
-<ConnectedPartsIds>1C518,13321;1C519,1BA9C;</ConnectedPartsIds></equalpart></boltPatternOnSite>
-<boltPatternOnSite ACADID="1C018" class="BoltPattern" id="1C079" name="M16 x 60 7798-70 8.8 - Нет - 2Ш2Г" nameBolt="Болт М16 - 6gx60.88 ГОСТ 7798-70" num="35" setBoltsType="1" setkey="1">
-<explicitQuantity>1</explicitQuantity>
-<set key="2Na2W" name="2Ш2Г"/>
-<numBolts>2</numBolts>
-<standard key="7798-70" name="7798-70"/>
-<diameter>16.000</diameter>
-<material key="8.8" name="8.8"/>
-<density>0.00</density>
-<boltLength>60.000</boltLength>
-<fitLength>20.000</fitLength>
-<fitLengthIncrement>0.000</fitLengthIncrement>
-<holeTolerance>3.000</holeTolerance>
-<mountLocation>0</mountLocation>
-<ConnectedPartsIds>1C518,1C0A8;1C519,1C0D2;</ConnectedPartsIds>
-<equalpart ACADID="1B078" id="1B077" name="M16 x 60 7798-70 8.8 - Нет - 2Ш2Г">
-<explicitQuantity>1</explicitQuantity>
-<ConnectedPartsIds>1C518,13321;1C519,13323;</ConnectedPartsIds></equalpart></boltPatternOnSite></mainpart>
-<mainpart id="1C53E" num="СФ2-1" quantity="2">
-<explicitQuantity>2</explicitQuantity>
-<proxy ACADID="1C174" basepart="1C052" id="1C0D2">
-<assemblyWeight>35442.34</assemblyWeight>
-<assemblyExactWeight>35273.83</assemblyExactWeight>
-<collisionSize x="0.000" y="0.000" z="0.000"/>
-<ApprovalStatus>Не установлено</ApprovalStatus>
-<GalvanizingConstructionClass>Нет</GalvanizingConstructionClass>
-<GalvanizingDetailClass>Нет</GalvanizingDetailClass>
-<GalvanizingConfidence>Нет</GalvanizingConfidence>
-<singlepart id="1C4FE" num="5" quantity="1">
-<explicitQuantity>1</explicitQuantity>
-<part ACADID="1BFFA" class="Beam" dstvName="Гн.  120x4" id="1C052" name="Гн.  120x4">
-<explicitQuantity>1</explicitQuantity>
-<role key="JoistVertBar" name="Стойка фахверка"/>
-<length>2089.999</length>
-<paintArea>973939.534</paintArea>
-<ObjectTopLevel>2100.001</ObjectTopLevel>
-<ObjectBottomLevel>10.001</ObjectBottomLevel>
-<material key="C235" name="С235"/>
-<coating key="grundiert" name="Грунтовка"/>
-<weight>29782.49</weight>
-<exactWeight>29738.49</exactWeight>
-<weightPerMeter>14250.00</weightPerMeter>
-<density>7850.00</density>
-<preliminaryNum>СФ2</preliminaryNum>
-<section key="RUS_S30245-3#@§@#SHS120x4" name="Гн.  120x4"/>
-<sysLength>2100.000</sysLength>
-<sawLength>2089.999</sawLength>
-<angleX1>0.0000</angleX1>
-<angleY1>0.0000</angleY1>
-<angleX2>0.0000</angleX2>
-<angleY2>0.0000</angleY2>
-<SawCutInfo>0</SawCutInfo>
-<ElementID>4280</ElementID>
-<ElementID>6072</ElementID></part></singlepart>
-<singlepart id="1C519" num="32" quantity="1">
-<explicitQuantity>1</explicitQuantity>
-<part ACADID="1BFEE" class="Plate" dstvName="t 10" id="1C058" name="t 10x70x260">
-<explicitQuantity>1</explicitQuantity>
-<length>260.000</length>
-<paintArea>43000.000</paintArea>
-<numHoles>2</numHoles>
-<ObjectTopLevel>2100.001</ObjectTopLevel>
-<ObjectBottomLevel>2030.001</ObjectBottomLevel>
-<material key="C235" name="С235"/>
-<coating key="grundiert" name="Грунтовка"/>
-<weight>1428.70</weight>
-<exactWeight>1384.46</exactWeight>
-<density>7850.00</density>
-<preliminaryNum>СФ2</preliminaryNum>
-<thickness>10.000</thickness>
-<width>70.000</width>
-<area1>18200.000</area1>
-<area2>18200.000</area2>
-<contourLength>660.000</contourLength>
-<ElementID>4421</ElementID>
-<ElementID>6074</ElementID></part></singlepart>
-<singlepart id="1C50C" num="19" quantity="2">
-<explicitQuantity>2</explicitQuantity>
-<part ACADID="1BFF6" class="Plate" dstvName="t 10" id="1C050" name="t 10x70x70">
-<explicitQuantity>1</explicitQuantity>
-<length>70.000</length>
-<paintArea>12599.999</paintArea>
-<numHoles>1</numHoles>
-<ObjectTopLevel>590.001</ObjectTopLevel>
-<ObjectBottomLevel>520.001</ObjectBottomLevel>
-<material key="C235" name="С235"/>
-<coating key="grundiert" name="Грунтовка"/>
-<weight>384.65</weight>
-<exactWeight>362.53</exactWeight>
-<density>7850.00</density>
-<preliminaryNum>СФ2</preliminaryNum>
-<thickness>10.000</thickness>
-<width>70.000</width>
-<area1>4900.001</area1>
-<area2>4900.001</area2>
-<contourLength>280.000</contourLength>
-<ElementID>6071</ElementID>
-<ElementID>6031</ElementID>
-<ElementID>6070</ElementID>
-<ElementID>6030</ElementID></part>
-<equalpart ACADID="1BFF7" id="1C04E" name="t 10x70x70">
-<explicitQuantity>1</explicitQuantity>
-<preliminaryNum>СФ2</preliminaryNum></equalpart></singlepart>
-<singlepart id="1C517" num="30" quantity="1">
-<explicitQuantity>1</explicitQuantity>
-<part ACADID="1BFF9" class="Plate" dstvName="t 10" id="1C04A" name="t 10x210x210">
-<explicitQuantity>1</explicitQuantity>
-<role key="Baseplate" name="Опорная плита"/>
-<length>210.000</length>
-<paintArea>96600.000</paintArea>
-<numHoles>3</numHoles>
-<ObjectTopLevel>10.001</ObjectTopLevel>
-<ObjectBottomLevel>0.001</ObjectBottomLevel>
-<material key="C235" name="С235"/>
-<coating key="grundiert" name="Грунтовка"/>
-<weight>3461.85</weight>
-<exactWeight>3425.82</exactWeight>
-<density>7850.00</density>
-<preliminaryNum>СФ2</preliminaryNum>
-<thickness>10.000</thickness>
-<width>210.000</width>
-<area1>44100.000</area1>
-<area2>44100.000</area2>
-<contourLength>840.000</contourLength>
-<ElementID>4291</ElementID>
-<ElementID>6069</ElementID></part></singlepart></proxy>
-<equalpart ACADID="13324" explicitQuantity="1" id="13323">
-<assemblyWeight>35442.34</assemblyWeight>
-<assemblyExactWeight>35273.83</assemblyExactWeight></equalpart>
-<boltPatternOnSite ACADID="1C01D" class="BoltPattern" id="1C074" name="M16 x 60 7798-70 8.8 - Нет - 2Ш2Г" nameBolt="Болт М16 - 6gx60.88 ГОСТ 7798-70" num="35" setBoltsType="1" setkey="1">
-<explicitQuantity>1</explicitQuantity>
-<set key="2Na2W" name="2Ш2Г"/>
-<numBolts>1</numBolts>
-<standard key="7798-70" name="7798-70"/>
-<diameter>16.000</diameter>
-<material key="8.8" name="8.8"/>
-<density>0.00</density>
-<boltLength>60.000</boltLength>
-<fitLength>20.000</fitLength>
-<fitLengthIncrement>0.000</fitLengthIncrement>
-<holeTolerance>3.000</holeTolerance>
-<mountLocation>0</mountLocation>
-<ConnectedPartsIds>1C50C,1C0D2;1C511,1C235;</ConnectedPartsIds>
-<equalpart ACADID="1B0E4" id="1B0E3" name="M16 x 60 7798-70 8.8 - Нет - 2Ш2Г">
-<explicitQuantity>1</explicitQuantity>
-<ConnectedPartsIds>1C50C,13323;1C511,1C22F;</ConnectedPartsIds></equalpart></boltPatternOnSite>
-<boltPatternOnSite ACADID="1C01E" class="BoltPattern" id="1C073" name="M16 x 60 7798-70 8.8 - Нет - 2Ш2Г" nameBolt="Болт М16 - 6gx60.88 ГОСТ 7798-70" num="35" setBoltsType="1" setkey="1">
-<explicitQuantity>1</explicitQuantity>
-<set key="2Na2W" name="2Ш2Г"/>
-<numBolts>1</numBolts>
-<standard key="7798-70" name="7798-70"/>
-<diameter>16.000</diameter>
-<material key="8.8" name="8.8"/>
-<density>0.00</density>
-<boltLength>60.000</boltLength>
-<fitLength>20.000</fitLength>
-<fitLengthIncrement>0.000</fitLengthIncrement>
-<holeTolerance>3.000</holeTolerance>
-<mountLocation>0</mountLocation>
-<ConnectedPartsIds>1C50C,1C0D2;1C511,1C235;</ConnectedPartsIds>
-<equalpart ACADID="1B0B3" id="1B0B2" name="M16 x 60 7798-70 8.8 - Нет - 2Ш2Г">
-<explicitQuantity>1</explicitQuantity>
-<ConnectedPartsIds>1C50C,13323;1C511,1C22F;</ConnectedPartsIds></equalpart></boltPatternOnSite></mainpart>
+<ConnectedPartsIds>1C50C,1D4F0;1C511,1D4FA;</ConnectedPartsIds></equalpart></boltPatternOnSite></mainpart>
 <mainpart id="1C535" num="СВ1-1" quantity="4">
 <explicitQuantity>4</explicitQuantity>
 <proxy ACADID="1C2C7" basepart="1C2BB" id="1C2C1">
@@ -1062,7 +772,7 @@
 <paintArea>999848.394</paintArea>
 <ObjectTopLevel>2706.397</ObjectTopLevel>
 <ObjectBottomLevel>573.605</ObjectBottomLevel>
-<material key="C235" name="С235"/>
+<material key="C255" name="С255"/>
 <coating key="grundiert" name="Грунтовка"/>
 <weight>37048.21</weight>
 <exactWeight>37048.21</exactWeight>
@@ -1106,12 +816,12 @@
 <area1>9000.000</area1>
 <area2>9000.000</area2>
 <contourLength>380.000</contourLength>
+<ElementID>5491</ElementID>
 <ElementID>5483</ElementID>
+<ElementID>5487</ElementID>
 <ElementID>6101</ElementID>
 <ElementID>6109</ElementID>
 <ElementID>5250</ElementID>
-<ElementID>5487</ElementID>
-<ElementID>5491</ElementID>
 <ElementID>6105</ElementID>
 <ElementID>6097</ElementID></part>
 <equalpart ACADID="1C3A6" id="1C3A5" name="t 10x90x100">
@@ -1138,11 +848,11 @@
 <area2>7000.000</area2>
 <contourLength>340.000</contourLength>
 <ElementID>5490</ElementID>
+<ElementID>5482</ElementID>
+<ElementID>5486</ElementID>
 <ElementID>6100</ElementID>
 <ElementID>6104</ElementID>
-<ElementID>5486</ElementID>
 <ElementID>6096</ElementID>
-<ElementID>5482</ElementID>
 <ElementID>6108</ElementID>
 <ElementID>5249</ElementID></part>
 <equalpart ACADID="1C3A4" id="1C3A3" name="t 10x70x100">
@@ -1157,6 +867,356 @@
 <equalpart ACADID="187BD" explicitQuantity="1" id="187BC">
 <assemblyWeight>39560.21</assemblyWeight>
 <assemblyExactWeight>39471.73</assemblyExactWeight></equalpart></mainpart>
+<mainpart id="1D7B2" num="СФ3-2" quantity="4">
+<explicitQuantity>4</explicitQuantity>
+<proxy ACADID="1D5A3" basepart="1D484" id="1D4FA">
+<assemblyWeight>24944.90</assemblyWeight>
+<assemblyExactWeight>24768.43</assemblyExactWeight>
+<collisionSize x="0.000" y="0.000" z="0.000"/>
+<ApprovalStatus>Не установлено</ApprovalStatus>
+<GalvanizingConstructionClass>Нет</GalvanizingConstructionClass>
+<GalvanizingDetailClass>Нет</GalvanizingDetailClass>
+<GalvanizingConfidence>Нет</GalvanizingConfidence>
+<singlepart id="1C4FF" num="6" quantity="1">
+<explicitQuantity>1</explicitQuantity>
+<part ACADID="1D41C" class="Beam" dstvName="Гн.  120x4" id="1D484" name="Гн.  120x4">
+<explicitQuantity>1</explicitQuantity>
+<role key="JoistVertBar" name="Стойка фахверка"/>
+<length>1550.000</length>
+<paintArea>722300.000</paintArea>
+<ObjectTopLevel>520.001</ObjectTopLevel>
+<ObjectBottomLevel>400.001</ObjectBottomLevel>
+<material key="C255" name="С255"/>
+<coating key="grundiert" name="Грунтовка"/>
+<weight>22087.50</weight>
+<exactWeight>21999.51</exactWeight>
+<weightPerMeter>14250.00</weightPerMeter>
+<density>7850.00</density>
+<preliminaryNum>СФ3</preliminaryNum>
+<section key="RUS_S30245-3#@§@#SHS120x4" name="Гн.  120x4"/>
+<sysLength>1550.000</sysLength>
+<sawLength>1550.000</sawLength>
+<angleX1>0.0000</angleX1>
+<angleY1>0.0000</angleY1>
+<angleX2>0.0000</angleX2>
+<angleY2>0.0000</angleY2>
+<SawCutInfo>0</SawCutInfo>
+<ElementID>6141</ElementID>
+<ElementID>6131</ElementID>
+<ElementID>6058</ElementID>
+<ElementID>6039</ElementID></part></singlepart>
+<singlepart id="1C511" num="24" quantity="2">
+<explicitQuantity>2</explicitQuantity>
+<part ACADID="1D42D" class="Plate" dstvName="t 10" id="1D48B" name="t 10x70x260">
+<explicitQuantity>1</explicitQuantity>
+<length>260.000</length>
+<paintArea>43000.000</paintArea>
+<numHoles>2</numHoles>
+<ObjectTopLevel>590.001</ObjectTopLevel>
+<ObjectBottomLevel>330.001</ObjectBottomLevel>
+<material key="C235" name="С235"/>
+<coating key="grundiert" name="Грунтовка"/>
+<weight>1428.70</weight>
+<exactWeight>1384.46</exactWeight>
+<density>7850.00</density>
+<preliminaryNum>СФ3</preliminaryNum>
+<thickness>10.000</thickness>
+<width>70.000</width>
+<area1>18200.000</area1>
+<area2>18200.000</area2>
+<contourLength>660.000</contourLength>
+<ElementID>6150</ElementID>
+<ElementID>6142</ElementID>
+<ElementID>6134</ElementID>
+<ElementID>6128</ElementID>
+<ElementID>6044</ElementID>
+<ElementID>6063</ElementID>
+<ElementID>6052</ElementID>
+<ElementID>4411</ElementID></part>
+<equalpart ACADID="1D420" id="1D47D" name="t 10x70x260">
+<explicitQuantity>1</explicitQuantity>
+<preliminaryNum>СФ3</preliminaryNum></equalpart></singlepart></proxy>
+<equalpart ACADID="1D5AF" explicitQuantity="1" id="1D521">
+<assemblyWeight>24944.90</assemblyWeight>
+<assemblyExactWeight>24768.43</assemblyExactWeight></equalpart>
+<equalpart ACADID="1C230" explicitQuantity="1" id="1C22F">
+<assemblyWeight>24944.90</assemblyWeight>
+<assemblyExactWeight>24768.43</assemblyExactWeight></equalpart>
+<equalpart ACADID="1C232" explicitQuantity="1" id="1C231">
+<assemblyWeight>24944.90</assemblyWeight>
+<assemblyExactWeight>24768.43</assemblyExactWeight></equalpart></mainpart>
+<mainpart id="1C53D" num="СФ4-1" quantity="2">
+<explicitQuantity>2</explicitQuantity>
+<proxy ACADID="1D5B7" basepart="1D4C1" id="1D531">
+<assemblyWeight>69091.00</assemblyWeight>
+<assemblyExactWeight>68826.06</assemblyExactWeight>
+<collisionSize x="0.000" y="0.000" z="0.000"/>
+<ApprovalStatus>Не установлено</ApprovalStatus>
+<GalvanizingConstructionClass>Нет</GalvanizingConstructionClass>
+<GalvanizingDetailClass>Нет</GalvanizingDetailClass>
+<GalvanizingConfidence>Нет</GalvanizingConfidence>
+<singlepart id="1C50A" num="17" quantity="1">
+<explicitQuantity>1</explicitQuantity>
+<part ACADID="1D42E" class="Beam" dstvName="Гн.  120x4" id="1D4C1" name="Гн.  120x4">
+<explicitQuantity>1</explicitQuantity>
+<role key="JoistVertBar" name="Стойка фахверка"/>
+<length>4540.000</length>
+<paintArea>2115640.000</paintArea>
+<ObjectTopLevel>2220.001</ObjectTopLevel>
+<ObjectBottomLevel>2100.001</ObjectBottomLevel>
+<material key="C255" name="С255"/>
+<coating key="grundiert" name="Грунтовка"/>
+<weight>64695.00</weight>
+<exactWeight>64607.01</exactWeight>
+<weightPerMeter>14250.00</weightPerMeter>
+<density>7850.00</density>
+<preliminaryNum>СФ4</preliminaryNum>
+<section key="RUS_S30245-3#@§@#SHS120x4" name="Гн.  120x4"/>
+<sysLength>4540.000</sysLength>
+<sawLength>4540.000</sawLength>
+<angleX1>0.0000</angleX1>
+<angleY1>0.0000</angleY1>
+<angleX2>0.0000</angleX2>
+<angleY2>0.0000</angleY2>
+<SawCutInfo>0</SawCutInfo>
+<ElementID>6147</ElementID>
+<ElementID>4279</ElementID></part></singlepart>
+<singlepart id="1C511" num="24" quantity="2">
+<explicitQuantity>2</explicitQuantity>
+<part ACADID="1D41A" class="Plate" dstvName="t 10" id="1D4BC" name="t 10x70x260">
+<explicitQuantity>1</explicitQuantity>
+<length>260.000</length>
+<paintArea>43000.000</paintArea>
+<numHoles>2</numHoles>
+<ObjectTopLevel>2290.001</ObjectTopLevel>
+<ObjectBottomLevel>2030.001</ObjectBottomLevel>
+<material key="C235" name="С235"/>
+<coating key="grundiert" name="Грунтовка"/>
+<weight>1428.70</weight>
+<exactWeight>1384.46</exactWeight>
+<density>7850.00</density>
+<preliminaryNum>СФ4</preliminaryNum>
+<thickness>10.000</thickness>
+<width>70.000</width>
+<area1>18200.000</area1>
+<area2>18200.000</area2>
+<contourLength>660.000</contourLength>
+<ElementID>6145</ElementID>
+<ElementID>6137</ElementID>
+<ElementID>6055</ElementID>
+<ElementID>6049</ElementID></part>
+<equalpart ACADID="1D431" id="1D492" name="t 10x70x260">
+<explicitQuantity>1</explicitQuantity>
+<preliminaryNum>СФ4</preliminaryNum></equalpart></singlepart>
+<singlepart id="1C518" num="31" quantity="2">
+<explicitQuantity>2</explicitQuantity>
+<part ACADID="1D42A" class="Plate" dstvName="t 10" id="1D4A2" name="t 10x70x140">
+<explicitQuantity>1</explicitQuantity>
+<length>140.000</length>
+<paintArea>23800.000</paintArea>
+<numHoles>2</numHoles>
+<ObjectTopLevel>2100.001</ObjectTopLevel>
+<ObjectBottomLevel>2030.001</ObjectBottomLevel>
+<material key="C235" name="С235"/>
+<coating key="grundiert" name="Грунтовка"/>
+<weight>769.30</weight>
+<exactWeight>725.06</exactWeight>
+<density>7850.00</density>
+<preliminaryNum>СФ4</preliminaryNum>
+<thickness>10.000</thickness>
+<width>70.000</width>
+<area1>9800.000</area1>
+<area2>9800.000</area2>
+<contourLength>420.000</contourLength>
+<ElementID>6138</ElementID>
+<ElementID>6130</ElementID>
+<ElementID>6061</ElementID>
+<ElementID>6029</ElementID></part>
+<equalpart ACADID="1D422" id="1D482" name="t 10x70x140">
+<explicitQuantity>1</explicitQuantity>
+<preliminaryNum>СФ4</preliminaryNum></equalpart></singlepart></proxy>
+<equalpart ACADID="13322" explicitQuantity="1" id="13321">
+<assemblyWeight>69091.00</assemblyWeight>
+<assemblyExactWeight>68826.06</assemblyExactWeight></equalpart>
+<boltPatternOnSite ACADID="1D453" class="BoltPattern" id="1D4A4" name="M16 x 60 7798-70 8.8 - Нет - 2Ш2Г" nameBolt="Болт М16 - 6gx60.88 ГОСТ 7798-70" num="35" setBoltsType="1" setkey="1">
+<explicitQuantity>1</explicitQuantity>
+<set key="2Na2W" name="2Ш2Г"/>
+<numBolts>2</numBolts>
+<standard key="7798-70" name="7798-70"/>
+<diameter>16.000</diameter>
+<material key="8.8" name="8.8"/>
+<density>0.00</density>
+<boltLength>60.000</boltLength>
+<fitLength>20.000</fitLength>
+<fitLengthIncrement>0.000</fitLengthIncrement>
+<holeTolerance>3.000</holeTolerance>
+<mountLocation>0</mountLocation>
+<ConnectedPartsIds>1C518,1D531;1C519,1D53A;</ConnectedPartsIds>
+<equalpart ACADID="1BA53" id="1BA8D" name="M16 x 60 7798-70 8.8 - Нет - 2Ш2Г">
+<explicitQuantity>1</explicitQuantity>
+<ConnectedPartsIds>1C518,13321;1C519,1BA9C;</ConnectedPartsIds></equalpart></boltPatternOnSite>
+<boltPatternOnSite ACADID="1D445" class="BoltPattern" id="1D4A1" name="M16 x 60 7798-70 8.8 - Нет - 2Ш2Г" nameBolt="Болт М16 - 6gx60.88 ГОСТ 7798-70" num="35" setBoltsType="1" setkey="1">
+<explicitQuantity>1</explicitQuantity>
+<set key="2Na2W" name="2Ш2Г"/>
+<numBolts>2</numBolts>
+<standard key="7798-70" name="7798-70"/>
+<diameter>16.000</diameter>
+<material key="8.8" name="8.8"/>
+<density>0.00</density>
+<boltLength>60.000</boltLength>
+<fitLength>20.000</fitLength>
+<fitLengthIncrement>0.000</fitLengthIncrement>
+<holeTolerance>3.000</holeTolerance>
+<mountLocation>0</mountLocation>
+<ConnectedPartsIds>1C518,1D531;1C519,1D4F0;</ConnectedPartsIds>
+<equalpart ACADID="1B078" id="1B077" name="M16 x 60 7798-70 8.8 - Нет - 2Ш2Г">
+<explicitQuantity>1</explicitQuantity>
+<ConnectedPartsIds>1C518,13321;1C519,13323;</ConnectedPartsIds></equalpart></boltPatternOnSite></mainpart>
+<mainpart id="1C53E" num="СФ2-1" quantity="2">
+<explicitQuantity>2</explicitQuantity>
+<proxy ACADID="1D5B9" basepart="1D4C4" id="1D53A">
+<assemblyWeight>35442.34</assemblyWeight>
+<assemblyExactWeight>35273.83</assemblyExactWeight>
+<collisionSize x="0.000" y="0.000" z="0.000"/>
+<ApprovalStatus>Не установлено</ApprovalStatus>
+<GalvanizingConstructionClass>Нет</GalvanizingConstructionClass>
+<GalvanizingDetailClass>Нет</GalvanizingDetailClass>
+<GalvanizingConfidence>Нет</GalvanizingConfidence>
+<singlepart id="1C4FE" num="5" quantity="1">
+<explicitQuantity>1</explicitQuantity>
+<part ACADID="1D425" class="Beam" dstvName="Гн.  120x4" id="1D4C4" name="Гн.  120x4">
+<explicitQuantity>1</explicitQuantity>
+<role key="JoistVertBar" name="Стойка фахверка"/>
+<length>2089.999</length>
+<paintArea>973939.534</paintArea>
+<ObjectTopLevel>2100.001</ObjectTopLevel>
+<ObjectBottomLevel>10.001</ObjectBottomLevel>
+<material key="C255" name="С255"/>
+<coating key="grundiert" name="Грунтовка"/>
+<weight>29782.49</weight>
+<exactWeight>29738.49</exactWeight>
+<weightPerMeter>14250.00</weightPerMeter>
+<density>7850.00</density>
+<preliminaryNum>СФ2</preliminaryNum>
+<section key="RUS_S30245-3#@§@#SHS120x4" name="Гн.  120x4"/>
+<sysLength>2100.000</sysLength>
+<sawLength>2089.999</sawLength>
+<angleX1>0.0000</angleX1>
+<angleY1>0.0000</angleY1>
+<angleX2>0.0000</angleX2>
+<angleY2>0.0000</angleY2>
+<SawCutInfo>0</SawCutInfo>
+<ElementID>6148</ElementID>
+<ElementID>4280</ElementID></part></singlepart>
+<singlepart id="1C519" num="32" quantity="1">
+<explicitQuantity>1</explicitQuantity>
+<part ACADID="1D429" class="Plate" dstvName="t 10" id="1D4D4" name="t 10x70x260">
+<explicitQuantity>1</explicitQuantity>
+<length>260.000</length>
+<paintArea>43000.000</paintArea>
+<numHoles>2</numHoles>
+<ObjectTopLevel>2100.001</ObjectTopLevel>
+<ObjectBottomLevel>2030.001</ObjectBottomLevel>
+<material key="C235" name="С235"/>
+<coating key="grundiert" name="Грунтовка"/>
+<weight>1428.70</weight>
+<exactWeight>1384.46</exactWeight>
+<density>7850.00</density>
+<preliminaryNum>СФ2</preliminaryNum>
+<thickness>10.000</thickness>
+<width>70.000</width>
+<area1>18200.000</area1>
+<area2>18200.000</area2>
+<contourLength>660.000</contourLength>
+<ElementID>6151</ElementID>
+<ElementID>4421</ElementID></part></singlepart>
+<singlepart id="1C517" num="30" quantity="1">
+<explicitQuantity>1</explicitQuantity>
+<part ACADID="1D424" class="Plate" dstvName="t 10" id="1D4C7" name="t 10x210x210">
+<explicitQuantity>1</explicitQuantity>
+<role key="Baseplate" name="Опорная плита"/>
+<length>210.000</length>
+<paintArea>96600.000</paintArea>
+<numHoles>3</numHoles>
+<ObjectTopLevel>10.001</ObjectTopLevel>
+<ObjectBottomLevel>0.001</ObjectBottomLevel>
+<material key="C235" name="С235"/>
+<coating key="grundiert" name="Грунтовка"/>
+<weight>3461.85</weight>
+<exactWeight>3425.82</exactWeight>
+<density>7850.00</density>
+<preliminaryNum>СФ2</preliminaryNum>
+<thickness>10.000</thickness>
+<width>210.000</width>
+<area1>44100.000</area1>
+<area2>44100.000</area2>
+<contourLength>840.000</contourLength>
+<ElementID>6149</ElementID>
+<ElementID>4291</ElementID></part></singlepart>
+<singlepart id="1C50C" num="19" quantity="2">
+<explicitQuantity>2</explicitQuantity>
+<part ACADID="1D426" class="Plate" dstvName="t 10" id="1D4AB" name="t 10x70x70">
+<explicitQuantity>1</explicitQuantity>
+<length>70.000</length>
+<paintArea>12599.999</paintArea>
+<numHoles>1</numHoles>
+<ObjectTopLevel>400.001</ObjectTopLevel>
+<ObjectBottomLevel>330.001</ObjectBottomLevel>
+<material key="C235" name="С235"/>
+<coating key="grundiert" name="Грунтовка"/>
+<weight>384.65</weight>
+<exactWeight>362.53</exactWeight>
+<density>7850.00</density>
+<preliminaryNum>СФ2</preliminaryNum>
+<thickness>10.000</thickness>
+<width>70.000</width>
+<area1>4900.001</area1>
+<area2>4900.001</area2>
+<contourLength>280.000</contourLength>
+<ElementID>6140</ElementID>
+<ElementID>6139</ElementID>
+<ElementID>6031</ElementID>
+<ElementID>6030</ElementID></part>
+<equalpart ACADID="1D427" id="1D4A8" name="t 10x70x70">
+<explicitQuantity>1</explicitQuantity>
+<preliminaryNum>СФ2</preliminaryNum></equalpart></singlepart></proxy>
+<equalpart ACADID="13324" explicitQuantity="1" id="13323">
+<assemblyWeight>35442.34</assemblyWeight>
+<assemblyExactWeight>35273.83</assemblyExactWeight></equalpart>
+<boltPatternOnSite ACADID="1D451" class="BoltPattern" id="1D4AD" name="M16 x 60 7798-70 8.8 - Нет - 2Ш2Г" nameBolt="Болт М16 - 6gx60.88 ГОСТ 7798-70" num="35" setBoltsType="1" setkey="1">
+<explicitQuantity>1</explicitQuantity>
+<set key="2Na2W" name="2Ш2Г"/>
+<numBolts>1</numBolts>
+<standard key="7798-70" name="7798-70"/>
+<diameter>16.000</diameter>
+<material key="8.8" name="8.8"/>
+<density>0.00</density>
+<boltLength>60.000</boltLength>
+<fitLength>20.000</fitLength>
+<fitLengthIncrement>0.000</fitLengthIncrement>
+<holeTolerance>3.000</holeTolerance>
+<mountLocation>0</mountLocation>
+<ConnectedPartsIds>1C50C,1D53A;1C511,1D521;</ConnectedPartsIds>
+<equalpart ACADID="1B0E4" id="1B0E3" name="M16 x 60 7798-70 8.8 - Нет - 2Ш2Г">
+<explicitQuantity>1</explicitQuantity>
+<ConnectedPartsIds>1C50C,13323;1C511,1C22F;</ConnectedPartsIds></equalpart></boltPatternOnSite>
+<boltPatternOnSite ACADID="1D452" class="BoltPattern" id="1D4AA" name="M16 x 60 7798-70 8.8 - Нет - 2Ш2Г" nameBolt="Болт М16 - 6gx60.88 ГОСТ 7798-70" num="35" setBoltsType="1" setkey="1">
+<explicitQuantity>1</explicitQuantity>
+<set key="2Na2W" name="2Ш2Г"/>
+<numBolts>1</numBolts>
+<standard key="7798-70" name="7798-70"/>
+<diameter>16.000</diameter>
+<material key="8.8" name="8.8"/>
+<density>0.00</density>
+<boltLength>60.000</boltLength>
+<fitLength>20.000</fitLength>
+<fitLengthIncrement>0.000</fitLengthIncrement>
+<holeTolerance>3.000</holeTolerance>
+<mountLocation>0</mountLocation>
+<ConnectedPartsIds>1C50C,1D53A;1C511,1D521;</ConnectedPartsIds>
+<equalpart ACADID="1B0B3" id="1B0B2" name="M16 x 60 7798-70 8.8 - Нет - 2Ш2Г">
+<explicitQuantity>1</explicitQuantity>
+<ConnectedPartsIds>1C50C,13323;1C511,1C22F;</ConnectedPartsIds></equalpart></boltPatternOnSite></mainpart>
 <mainpart id="1C542" num="К2-1" quantity="1">
 <explicitQuantity>1</explicitQuantity>
 <proxy ACADID="F112" basepart="E07D" id="F111">
@@ -1176,7 +1236,7 @@
 <paintArea>3836229.917</paintArea>
 <ObjectTopLevel>4944.558</ObjectTopLevel>
 <ObjectBottomLevel>20.001</ObjectBottomLevel>
-<material key="C235" name="С235"/>
+<material key="C255" name="С255"/>
 <coating key="grundiert" name="Грунтовка"/>
 <weight>176397.63</weight>
 <exactWeight>175963.05</exactWeight>
@@ -1355,7 +1415,7 @@
 <paintArea>3514892.417</paintArea>
 <ObjectTopLevel>4532.058</ObjectTopLevel>
 <ObjectBottomLevel>20.001</ObjectBottomLevel>
-<material key="C235" name="С235"/>
+<material key="C255" name="С255"/>
 <coating key="grundiert" name="Грунтовка"/>
 <weight>161621.88</weight>
 <exactWeight>161187.30</exactWeight>
@@ -1474,7 +1534,7 @@
 <area2>36100.000</area2>
 <contourLength>760.000</contourLength>
 <ElementID>4029</ElementID></part></singlepart></proxy>
-<boltPatternOnSite ACADID="1B531" class="BoltPattern" id="1B538" name="M16 x 60 7798-70 8.8 - Нет - 2Ш2Г" nameBolt="Болт М16 - 6gx60.88 ГОСТ 7798-70" num="35" setBoltsType="1" setkey="1">
+<boltPatternOnSite ACADID="1D00A" class="BoltPattern" id="1D009" name="M16 x 60 7798-70 8.8 - Нет - 2Ш2Г" nameBolt="Болт М16 - 6gx60.88 ГОСТ 7798-70" num="35" setBoltsType="1" setkey="1">
 <explicitQuantity>1</explicitQuantity>
 <set key="2Na2W" name="2Ш2Г"/>
 <numBolts>1</numBolts>
@@ -1488,7 +1548,7 @@
 <holeTolerance>3.000</holeTolerance>
 <mountLocation>0</mountLocation>
 <ConnectedPartsIds>1C50C,F113;1C511,13321;</ConnectedPartsIds></boltPatternOnSite>
-<boltPatternOnSite ACADID="1B4D9" class="BoltPattern" id="1B4D8" name="M16 x 60 7798-70 8.8 - Нет - 2Ш2Г" nameBolt="Болт М16 - 6gx60.88 ГОСТ 7798-70" num="35" setBoltsType="1" setkey="1">
+<boltPatternOnSite ACADID="1D080" class="BoltPattern" id="1D07F" name="M16 x 60 7798-70 8.8 - Нет - 2Ш2Г" nameBolt="Болт М16 - 6gx60.88 ГОСТ 7798-70" num="35" setBoltsType="1" setkey="1">
 <explicitQuantity>1</explicitQuantity>
 <set key="2Na2W" name="2Ш2Г"/>
 <numBolts>1</numBolts>
@@ -1502,7 +1562,7 @@
 <holeTolerance>3.000</holeTolerance>
 <mountLocation>0</mountLocation>
 <ConnectedPartsIds>1C50C,F113;1C511,1C22F;</ConnectedPartsIds></boltPatternOnSite>
-<boltPatternOnSite ACADID="1B508" class="BoltPattern" id="1B507" name="M16 x 60 7798-70 8.8 - Нет - 2Ш2Г" nameBolt="Болт М16 - 6gx60.88 ГОСТ 7798-70" num="35" setBoltsType="1" setkey="1">
+<boltPatternOnSite ACADID="1D099" class="BoltPattern" id="1D098" name="M16 x 60 7798-70 8.8 - Нет - 2Ш2Г" nameBolt="Болт М16 - 6gx60.88 ГОСТ 7798-70" num="35" setBoltsType="1" setkey="1">
 <explicitQuantity>1</explicitQuantity>
 <set key="2Na2W" name="2Ш2Г"/>
 <numBolts>1</numBolts>
@@ -1516,7 +1576,7 @@
 <holeTolerance>3.000</holeTolerance>
 <mountLocation>0</mountLocation>
 <ConnectedPartsIds>1C50C,F113;1C511,1C22F;</ConnectedPartsIds></boltPatternOnSite>
-<boltPatternOnSite ACADID="1B532" class="BoltPattern" id="1B535" name="M16 x 60 7798-70 8.8 - Нет - 2Ш2Г" nameBolt="Болт М16 - 6gx60.88 ГОСТ 7798-70" num="35" setBoltsType="1" setkey="1">
+<boltPatternOnSite ACADID="1D033" class="BoltPattern" id="1D032" name="M16 x 60 7798-70 8.8 - Нет - 2Ш2Г" nameBolt="Болт М16 - 6gx60.88 ГОСТ 7798-70" num="35" setBoltsType="1" setkey="1">
 <explicitQuantity>1</explicitQuantity>
 <set key="2Na2W" name="2Ш2Г"/>
 <numBolts>1</numBolts>
@@ -1606,7 +1666,7 @@
 <numHoles>6</numHoles>
 <ObjectTopLevel>5338.015</ObjectTopLevel>
 <ObjectBottomLevel>4764.063</ObjectBottomLevel>
-<material key="C235" name="С235"/>
+<material key="C345" name="С345"/>
 <coating key="grundiert" name="Грунтовка"/>
 <weight>96892.24</weight>
 <exactWeight>96088.77</exactWeight>
@@ -1666,7 +1726,7 @@
 <paintArea>4157567.417</paintArea>
 <ObjectTopLevel>5357.058</ObjectTopLevel>
 <ObjectBottomLevel>20.001</ObjectBottomLevel>
-<material key="C235" name="С235"/>
+<material key="C255" name="С255"/>
 <coating key="grundiert" name="Грунтовка"/>
 <weight>191173.38</weight>
 <exactWeight>190738.80</exactWeight>
@@ -1688,7 +1748,7 @@
 <ElementID>4025</ElementID></part></singlepart>
 <singlepart id="1C516" num="29" quantity="2">
 <explicitQuantity>2</explicitQuantity>
-<part ACADID="1A3E6" class="Plate" dstvName="t 10" id="1A3E5" name="t 10x140x241">
+<part ACADID="1DC10" class="Plate" dstvName="t 10" id="1DC0F" name="t 10x140x241">
 <explicitQuantity>1</explicitQuantity>
 <role key="Gusset" name="Узловая фасонка"/>
 <length>241.208</length>
@@ -1707,9 +1767,9 @@
 <area1>33684.100</area1>
 <area2>33684.100</area2>
 <contourLength>761.711</contourLength>
-<ElementID>5185</ElementID>
-<ElementID>5189</ElementID></part>
-<equalpart ACADID="1A3B9" id="1A3B8" name="t 10x140x241">
+<ElementID>5189</ElementID>
+<ElementID>5185</ElementID></part>
+<equalpart ACADID="1DBE3" id="1DBE2" name="t 10x140x241">
 <explicitQuantity>1</explicitQuantity>
 <preliminaryNum>К1</preliminaryNum></equalpart></singlepart>
 <singlepart id="1C512" num="25" quantity="1">
@@ -1778,7 +1838,7 @@
 <area2>36100.000</area2>
 <contourLength>760.000</contourLength>
 <ElementID>4026</ElementID></part></singlepart></proxy>
-<boltPatternOnSite ACADID="1A3F6" class="BoltPattern" id="1A3F5" name="M16 x 60 7798-70 8.8 - Нет - 2Ш2Г" nameBolt="Болт М16 - 6gx60.88 ГОСТ 7798-70" num="35" setBoltsType="1" setkey="1">
+<boltPatternOnSite ACADID="1DC20" class="BoltPattern" id="1DC1F" name="M16 x 60 7798-70 8.8 - Нет - 2Ш2Г" nameBolt="Болт М16 - 6gx60.88 ГОСТ 7798-70" num="35" setBoltsType="1" setkey="1">
 <explicitQuantity>1</explicitQuantity>
 <set key="2Na2W" name="2Ш2Г"/>
 <numBolts>2</numBolts>
@@ -1793,7 +1853,7 @@
 <holeTolerance>3.000</holeTolerance>
 <mountLocation>0</mountLocation>
 <ConnectedPartsIds>1C516,F119;1C51A,187B8;</ConnectedPartsIds></boltPatternOnSite>
-<boltPatternOnSite ACADID="1A3C9" class="BoltPattern" id="1A3C8" name="M16 x 60 7798-70 8.8 - Нет - 2Ш2Г" nameBolt="Болт М16 - 6gx60.88 ГОСТ 7798-70" num="35" setBoltsType="1" setkey="1">
+<boltPatternOnSite ACADID="1DBF3" class="BoltPattern" id="1DBF2" name="M16 x 60 7798-70 8.8 - Нет - 2Ш2Г" nameBolt="Болт М16 - 6gx60.88 ГОСТ 7798-70" num="35" setBoltsType="1" setkey="1">
 <explicitQuantity>1</explicitQuantity>
 <set key="2Na2W" name="2Ш2Г"/>
 <numBolts>2</numBolts>
@@ -1884,7 +1944,7 @@
 <numHoles>8</numHoles>
 <ObjectTopLevel>5338.015</ObjectTopLevel>
 <ObjectBottomLevel>4764.063</ObjectBottomLevel>
-<material key="C235" name="С235"/>
+<material key="C345" name="С345"/>
 <coating key="grundiert" name="Грунтовка"/>
 <weight>96892.24</weight>
 <exactWeight>96053.10</exactWeight>
@@ -1961,7 +2021,7 @@
 <paintArea>3836229.917</paintArea>
 <ObjectTopLevel>4944.558</ObjectTopLevel>
 <ObjectBottomLevel>20.001</ObjectBottomLevel>
-<material key="C235" name="С235"/>
+<material key="C255" name="С255"/>
 <coating key="grundiert" name="Грунтовка"/>
 <weight>176397.63</weight>
 <exactWeight>175963.05</exactWeight>
@@ -2154,7 +2214,7 @@
 <paintArea>3514892.417</paintArea>
 <ObjectTopLevel>4532.058</ObjectTopLevel>
 <ObjectBottomLevel>20.001</ObjectBottomLevel>
-<material key="C235" name="С235"/>
+<material key="C255" name="С255"/>
 <coating key="grundiert" name="Грунтовка"/>
 <weight>161621.88</weight>
 <exactWeight>161187.30</exactWeight>
@@ -2176,7 +2236,7 @@
 <ElementID>4082</ElementID></part></singlepart>
 <singlepart id="1C50C" num="19" quantity="8">
 <explicitQuantity>8</explicitQuantity>
-<part ACADID="1BFF2" class="Plate" dstvName="t 10" id="1C068" name="t 10x70x70">
+<part ACADID="1D419" class="Plate" dstvName="t 10" id="1D4BF" name="t 10x70x70">
 <explicitQuantity>1</explicitQuantity>
 <length>70.000</length>
 <paintArea>12599.999</paintArea>
@@ -2194,21 +2254,21 @@
 <area1>4900.000</area1>
 <area2>4900.000</area2>
 <contourLength>280.000</contourLength>
-<ElementID>6080</ElementID>
+<ElementID>6146</ElementID>
+<ElementID>6144</ElementID>
+<ElementID>6143</ElementID>
+<ElementID>6123</ElementID>
 <ElementID>6062</ElementID>
-<ElementID>6078</ElementID>
-<ElementID>6077</ElementID>
-<ElementID>6081</ElementID>
 <ElementID>6056</ElementID>
 <ElementID>6057</ElementID>
 <ElementID>6054</ElementID></part>
-<equalpart ACADID="1BFF0" id="1C066" name="t 10x70x70">
+<equalpart ACADID="1D415" id="1D4BA" name="t 10x70x70">
 <explicitQuantity>1</explicitQuantity>
 <preliminaryNum>К3</preliminaryNum></equalpart>
-<equalpart ACADID="1BFF1" id="1C061" name="t 10x70x70">
+<equalpart ACADID="1D417" id="1D4B8" name="t 10x70x70">
 <explicitQuantity>1</explicitQuantity>
 <preliminaryNum>К3</preliminaryNum></equalpart>
-<equalpart ACADID="1BFF4" id="1C05F" name="t 10x70x70">
+<equalpart ACADID="1D418" id="1D46F" name="t 10x70x70">
 <explicitQuantity>1</explicitQuantity>
 <preliminaryNum>К3</preliminaryNum></equalpart>
 <equalpart ACADID="1BA41" id="1BA8E" name="t 10x70x70">
@@ -2289,6 +2349,118 @@
 <area2>36100.000</area2>
 <contourLength>760.000</contourLength>
 <ElementID>4072</ElementID></part></singlepart></proxy>
+<boltPatternOnSite ACADID="1D065" class="BoltPattern" id="1D064" name="M16 x 60 7798-70 8.8 - Нет - 2Ш2Г" nameBolt="Болт М16 - 6gx60.88 ГОСТ 7798-70" num="35" setBoltsType="1" setkey="1">
+<explicitQuantity>1</explicitQuantity>
+<set key="2Na2W" name="2Ш2Г"/>
+<numBolts>1</numBolts>
+<standard key="7798-70" name="7798-70"/>
+<diameter>16.000</diameter>
+<material key="8.8" name="8.8"/>
+<density>0.00</density>
+<boltLength>60.000</boltLength>
+<fitLength>20.000</fitLength>
+<fitLengthIncrement>0.000</fitLengthIncrement>
+<holeTolerance>3.000</holeTolerance>
+<mountLocation>0</mountLocation>
+<ConnectedPartsIds>1C50C,F129;1C511,13321;</ConnectedPartsIds></boltPatternOnSite>
+<boltPatternOnSite ACADID="1D433" class="BoltPattern" id="1D468" name="M16 x 60 7798-70 8.8 - Нет - 2Ш2Г" nameBolt="Болт М16 - 6gx60.88 ГОСТ 7798-70" num="35" setBoltsType="1" setkey="1">
+<explicitQuantity>1</explicitQuantity>
+<set key="2Na2W" name="2Ш2Г"/>
+<numBolts>1</numBolts>
+<standard key="7798-70" name="7798-70"/>
+<diameter>16.000</diameter>
+<material key="8.8" name="8.8"/>
+<density>0.00</density>
+<boltLength>60.000</boltLength>
+<fitLength>20.000</fitLength>
+<fitLengthIncrement>0.000</fitLengthIncrement>
+<holeTolerance>3.000</holeTolerance>
+<mountLocation>0</mountLocation>
+<ConnectedPartsIds>1C50C,F129;1C511,1D521;</ConnectedPartsIds></boltPatternOnSite>
+<boltPatternOnSite ACADID="1D434" class="BoltPattern" id="1D467" name="M16 x 60 7798-70 8.8 - Нет - 2Ш2Г" nameBolt="Болт М16 - 6gx60.88 ГОСТ 7798-70" num="35" setBoltsType="1" setkey="1">
+<explicitQuantity>1</explicitQuantity>
+<set key="2Na2W" name="2Ш2Г"/>
+<numBolts>1</numBolts>
+<standard key="7798-70" name="7798-70"/>
+<diameter>16.000</diameter>
+<material key="8.8" name="8.8"/>
+<density>0.00</density>
+<boltLength>60.000</boltLength>
+<fitLength>20.000</fitLength>
+<fitLengthIncrement>0.000</fitLengthIncrement>
+<holeTolerance>3.000</holeTolerance>
+<mountLocation>0</mountLocation>
+<ConnectedPartsIds>1C50C,F129;1C511,1D521;</ConnectedPartsIds></boltPatternOnSite>
+<boltPatternOnSite ACADID="1D100" class="BoltPattern" id="1D0FF" name="M16 x 60 7798-70 8.8 - Нет - 2Ш2Г" nameBolt="Болт М16 - 6gx60.88 ГОСТ 7798-70" num="35" setBoltsType="1" setkey="1">
+<explicitQuantity>1</explicitQuantity>
+<set key="2Na2W" name="2Ш2Г"/>
+<numBolts>1</numBolts>
+<standard key="7798-70" name="7798-70"/>
+<diameter>16.000</diameter>
+<material key="8.8" name="8.8"/>
+<density>0.00</density>
+<boltLength>60.000</boltLength>
+<fitLength>20.000</fitLength>
+<fitLengthIncrement>0.000</fitLengthIncrement>
+<holeTolerance>3.000</holeTolerance>
+<mountLocation>0</mountLocation>
+<ConnectedPartsIds>1C50C,F129;1C511,1C231;</ConnectedPartsIds></boltPatternOnSite>
+<boltPatternOnSite ACADID="1D04C" class="BoltPattern" id="1D04B" name="M16 x 60 7798-70 8.8 - Нет - 2Ш2Г" nameBolt="Болт М16 - 6gx60.88 ГОСТ 7798-70" num="35" setBoltsType="1" setkey="1">
+<explicitQuantity>1</explicitQuantity>
+<set key="2Na2W" name="2Ш2Г"/>
+<numBolts>1</numBolts>
+<standard key="7798-70" name="7798-70"/>
+<diameter>16.000</diameter>
+<material key="8.8" name="8.8"/>
+<density>0.00</density>
+<boltLength>60.000</boltLength>
+<fitLength>20.000</fitLength>
+<fitLengthIncrement>0.000</fitLengthIncrement>
+<holeTolerance>3.000</holeTolerance>
+<mountLocation>0</mountLocation>
+<ConnectedPartsIds>1C50C,F129;1C511,13321;</ConnectedPartsIds></boltPatternOnSite>
+<boltPatternOnSite ACADID="1D437" class="BoltPattern" id="1D46B" name="M16 x 60 7798-70 8.8 - Нет - 2Ш2Г" nameBolt="Болт М16 - 6gx60.88 ГОСТ 7798-70" num="35" setBoltsType="1" setkey="1">
+<explicitQuantity>1</explicitQuantity>
+<set key="2Na2W" name="2Ш2Г"/>
+<numBolts>1</numBolts>
+<standard key="7798-70" name="7798-70"/>
+<diameter>16.000</diameter>
+<material key="8.8" name="8.8"/>
+<density>0.00</density>
+<boltLength>60.000</boltLength>
+<fitLength>20.000</fitLength>
+<fitLengthIncrement>0.000</fitLengthIncrement>
+<holeTolerance>3.000</holeTolerance>
+<mountLocation>0</mountLocation>
+<ConnectedPartsIds>1C50C,F129;1C511,1D531;</ConnectedPartsIds></boltPatternOnSite>
+<boltPatternOnSite ACADID="1D0B2" class="BoltPattern" id="1D0B1" name="M16 x 60 7798-70 8.8 - Нет - 2Ш2Г" nameBolt="Болт М16 - 6gx60.88 ГОСТ 7798-70" num="35" setBoltsType="1" setkey="1">
+<explicitQuantity>1</explicitQuantity>
+<set key="2Na2W" name="2Ш2Г"/>
+<numBolts>1</numBolts>
+<standard key="7798-70" name="7798-70"/>
+<diameter>16.000</diameter>
+<material key="8.8" name="8.8"/>
+<density>0.00</density>
+<boltLength>60.000</boltLength>
+<fitLength>20.000</fitLength>
+<fitLengthIncrement>0.000</fitLengthIncrement>
+<holeTolerance>3.000</holeTolerance>
+<mountLocation>0</mountLocation>
+<ConnectedPartsIds>1C50C,F129;1C511,1C231;</ConnectedPartsIds></boltPatternOnSite>
+<boltPatternOnSite ACADID="1D436" class="BoltPattern" id="1D46C" name="M16 x 60 7798-70 8.8 - Нет - 2Ш2Г" nameBolt="Болт М16 - 6gx60.88 ГОСТ 7798-70" num="35" setBoltsType="1" setkey="1">
+<explicitQuantity>1</explicitQuantity>
+<set key="2Na2W" name="2Ш2Г"/>
+<numBolts>1</numBolts>
+<standard key="7798-70" name="7798-70"/>
+<diameter>16.000</diameter>
+<material key="8.8" name="8.8"/>
+<density>0.00</density>
+<boltLength>60.000</boltLength>
+<fitLength>20.000</fitLength>
+<fitLengthIncrement>0.000</fitLengthIncrement>
+<holeTolerance>3.000</holeTolerance>
+<mountLocation>0</mountLocation>
+<ConnectedPartsIds>1C50C,F129;1C511,1D531;</ConnectedPartsIds></boltPatternOnSite>
 <boltPatternOnSite ACADID="FAB9" class="BoltPattern" id="FAB8" name="M16 x 60 7798-70 8.8 - Нет - 2Ш2Г" nameBolt="Болт М16 - 6gx60.88 ГОСТ 7798-70" num="35" setBoltsType="1" setkey="1">
 <explicitQuantity>1</explicitQuantity>
 <set key="2Na2W" name="2Ш2Г"/>
@@ -2331,118 +2503,6 @@
 <holeTolerance>2.000</holeTolerance>
 <mountLocation>0</mountLocation>
 <ConnectedPartsIds>1C50F,F129;1C504,F12F;</ConnectedPartsIds></boltPatternOnSite>
-<boltPatternOnSite ACADID="1BA56" class="BoltPattern" id="1BA75" name="M16 x 45 7798-70 8.8 - Нет - ШГ" nameBolt="Болт М16 - 6gx45.88 ГОСТ 7798-70" num="37" setBoltsType="1" setkey="3">
-<explicitQuantity>1</explicitQuantity>
-<set key="Mus" name="ШГ"/>
-<numBolts>1</numBolts>
-<standard key="7798-70" name="7798-70"/>
-<diameter>16.000</diameter>
-<material key="8.8" name="8.8"/>
-<density>0.00</density>
-<boltLength>45.000</boltLength>
-<fitLength>20.000</fitLength>
-<fitLengthIncrement>0.000</fitLengthIncrement>
-<holeTolerance>3.000</holeTolerance>
-<mountLocation>0</mountLocation>
-<ConnectedPartsIds>1C50C,F129;1C511,1C231;</ConnectedPartsIds></boltPatternOnSite>
-<boltPatternOnSite ACADID="1BA58" class="BoltPattern" id="1BA7D" name="M16 x 45 7798-70 8.8 - Нет - ШГ" nameBolt="Болт М16 - 6gx45.88 ГОСТ 7798-70" num="37" setBoltsType="1" setkey="3">
-<explicitQuantity>1</explicitQuantity>
-<set key="Mus" name="ШГ"/>
-<numBolts>1</numBolts>
-<standard key="7798-70" name="7798-70"/>
-<diameter>16.000</diameter>
-<material key="8.8" name="8.8"/>
-<density>0.00</density>
-<boltLength>45.000</boltLength>
-<fitLength>20.000</fitLength>
-<fitLengthIncrement>0.000</fitLengthIncrement>
-<holeTolerance>3.000</holeTolerance>
-<mountLocation>0</mountLocation>
-<ConnectedPartsIds>1C50C,F129;1C511,13321;</ConnectedPartsIds></boltPatternOnSite>
-<boltPatternOnSite ACADID="1BA57" class="BoltPattern" id="1BA7E" name="M16 x 45 7798-70 8.8 - Нет - ШГ" nameBolt="Болт М16 - 6gx45.88 ГОСТ 7798-70" num="37" setBoltsType="1" setkey="3">
-<explicitQuantity>1</explicitQuantity>
-<set key="Mus" name="ШГ"/>
-<numBolts>1</numBolts>
-<standard key="7798-70" name="7798-70"/>
-<diameter>16.000</diameter>
-<material key="8.8" name="8.8"/>
-<density>0.00</density>
-<boltLength>45.000</boltLength>
-<fitLength>20.000</fitLength>
-<fitLengthIncrement>0.000</fitLengthIncrement>
-<holeTolerance>3.000</holeTolerance>
-<mountLocation>0</mountLocation>
-<ConnectedPartsIds>1C50C,F129;1C511,13321;</ConnectedPartsIds></boltPatternOnSite>
-<boltPatternOnSite ACADID="1BA55" class="BoltPattern" id="1BA90" name="M16 x 45 7798-70 8.8 - Нет - ШГ" nameBolt="Болт М16 - 6gx45.88 ГОСТ 7798-70" num="37" setBoltsType="1" setkey="3">
-<explicitQuantity>1</explicitQuantity>
-<set key="Mus" name="ШГ"/>
-<numBolts>1</numBolts>
-<standard key="7798-70" name="7798-70"/>
-<diameter>16.000</diameter>
-<material key="8.8" name="8.8"/>
-<density>0.00</density>
-<boltLength>45.000</boltLength>
-<fitLength>20.000</fitLength>
-<fitLengthIncrement>0.000</fitLengthIncrement>
-<holeTolerance>3.000</holeTolerance>
-<mountLocation>0</mountLocation>
-<ConnectedPartsIds>1C50C,F129;1C511,1C231;</ConnectedPartsIds></boltPatternOnSite>
-<boltPatternOnSite ACADID="1C01C" class="BoltPattern" id="1C07B" name="M16 x 45 7798-70 8.8 - Нет - ШГ" nameBolt="Болт М16 - 6gx45.88 ГОСТ 7798-70" num="37" setBoltsType="1" setkey="3">
-<explicitQuantity>1</explicitQuantity>
-<set key="Mus" name="ШГ"/>
-<numBolts>1</numBolts>
-<standard key="7798-70" name="7798-70"/>
-<diameter>16.000</diameter>
-<material key="8.8" name="8.8"/>
-<density>0.00</density>
-<boltLength>45.000</boltLength>
-<fitLength>20.000</fitLength>
-<fitLengthIncrement>0.000</fitLengthIncrement>
-<holeTolerance>3.000</holeTolerance>
-<mountLocation>0</mountLocation>
-<ConnectedPartsIds>1C50C,F129;1C511,1C235;</ConnectedPartsIds></boltPatternOnSite>
-<boltPatternOnSite ACADID="1C01A" class="BoltPattern" id="1C07C" name="M16 x 45 7798-70 8.8 - Нет - ШГ" nameBolt="Болт М16 - 6gx45.88 ГОСТ 7798-70" num="37" setBoltsType="1" setkey="3">
-<explicitQuantity>1</explicitQuantity>
-<set key="Mus" name="ШГ"/>
-<numBolts>1</numBolts>
-<standard key="7798-70" name="7798-70"/>
-<diameter>16.000</diameter>
-<material key="8.8" name="8.8"/>
-<density>0.00</density>
-<boltLength>45.000</boltLength>
-<fitLength>20.000</fitLength>
-<fitLengthIncrement>0.000</fitLengthIncrement>
-<holeTolerance>3.000</holeTolerance>
-<mountLocation>0</mountLocation>
-<ConnectedPartsIds>1C50C,F129;1C511,1C235;</ConnectedPartsIds></boltPatternOnSite>
-<boltPatternOnSite ACADID="1C019" class="BoltPattern" id="1C07D" name="M16 x 45 7798-70 8.8 - Нет - ШГ" nameBolt="Болт М16 - 6gx45.88 ГОСТ 7798-70" num="37" setBoltsType="1" setkey="3">
-<explicitQuantity>1</explicitQuantity>
-<set key="Mus" name="ШГ"/>
-<numBolts>1</numBolts>
-<standard key="7798-70" name="7798-70"/>
-<diameter>16.000</diameter>
-<material key="8.8" name="8.8"/>
-<density>0.00</density>
-<boltLength>45.000</boltLength>
-<fitLength>20.000</fitLength>
-<fitLengthIncrement>0.000</fitLengthIncrement>
-<holeTolerance>3.000</holeTolerance>
-<mountLocation>0</mountLocation>
-<ConnectedPartsIds>1C50C,F129;1C511,1C0A8;</ConnectedPartsIds></boltPatternOnSite>
-<boltPatternOnSite ACADID="1C01B" class="BoltPattern" id="1C07E" name="M16 x 45 7798-70 8.8 - Нет - ШГ" nameBolt="Болт М16 - 6gx45.88 ГОСТ 7798-70" num="37" setBoltsType="1" setkey="3">
-<explicitQuantity>1</explicitQuantity>
-<set key="Mus" name="ШГ"/>
-<numBolts>1</numBolts>
-<standard key="7798-70" name="7798-70"/>
-<diameter>16.000</diameter>
-<material key="8.8" name="8.8"/>
-<density>0.00</density>
-<boltLength>45.000</boltLength>
-<fitLength>20.000</fitLength>
-<fitLengthIncrement>0.000</fitLengthIncrement>
-<holeTolerance>3.000</holeTolerance>
-<mountLocation>0</mountLocation>
-<ConnectedPartsIds>1C50C,F129;1C511,1C0A8;</ConnectedPartsIds></boltPatternOnSite>
 <anchorPatternOnSite ACADID="10078" class="AnchorPattern" id="10077" name="M16 x 153 HILTI HSL-3 1.4401 - Нет - ШГ" nameBolt="HILTI HSL-3 M16/25" num="38" setkey="1">
 <explicitQuantity>1</explicitQuantity>
 <set key="MuS" name="ШГ"/>
@@ -2491,7 +2551,7 @@
 <numHoles>6</numHoles>
 <ObjectTopLevel>5338.015</ObjectTopLevel>
 <ObjectBottomLevel>4764.063</ObjectBottomLevel>
-<material key="C235" name="С235"/>
+<material key="C345" name="С345"/>
 <coating key="grundiert" name="Грунтовка"/>
 <weight>96892.24</weight>
 <exactWeight>96088.77</exactWeight>
@@ -2551,7 +2611,7 @@
 <paintArea>3514892.417</paintArea>
 <ObjectTopLevel>4532.058</ObjectTopLevel>
 <ObjectBottomLevel>20.001</ObjectBottomLevel>
-<material key="C235" name="С235"/>
+<material key="C255" name="С255"/>
 <coating key="grundiert" name="Грунтовка"/>
 <weight>161621.88</weight>
 <exactWeight>161187.30</exactWeight>
@@ -2571,42 +2631,9 @@
 <SawLengthFlangeAtEnd>24.265</SawLengthFlangeAtEnd>
 <SawLengthWebAtEnd>0.000</SawLengthWebAtEnd>
 <ElementID>4094</ElementID></part></singlepart>
-<singlepart id="1C50C" num="19" quantity="4">
-<explicitQuantity>4</explicitQuantity>
-<part ACADID="1BFE2" class="Plate" dstvName="t 10" id="1C09E" name="t 10x70x70">
-<explicitQuantity>1</explicitQuantity>
-<length>70.000</length>
-<paintArea>12599.999</paintArea>
-<numHoles>1</numHoles>
-<ObjectTopLevel>590.001</ObjectTopLevel>
-<ObjectBottomLevel>520.001</ObjectBottomLevel>
-<material key="C235" name="С235"/>
-<coating key="grundiert" name="Грунтовка"/>
-<weight>384.65</weight>
-<exactWeight>362.53</exactWeight>
-<density>7850.00</density>
-<preliminaryNum>К3</preliminaryNum>
-<thickness>10.000</thickness>
-<width>70.000</width>
-<area1>4900.000</area1>
-<area2>4900.000</area2>
-<contourLength>280.000</contourLength>
-<ElementID>6085</ElementID>
-<ElementID>6083</ElementID>
-<ElementID>6091</ElementID>
-<ElementID>6086</ElementID></part>
-<equalpart ACADID="1BFE5" id="1C089" name="t 10x70x70">
-<explicitQuantity>1</explicitQuantity>
-<preliminaryNum>К3</preliminaryNum></equalpart>
-<equalpart ACADID="1BFE6" id="1C087" name="t 10x70x70">
-<explicitQuantity>1</explicitQuantity>
-<preliminaryNum>К3</preliminaryNum></equalpart>
-<equalpart ACADID="1BFE3" id="1C081" name="t 10x70x70">
-<explicitQuantity>1</explicitQuantity>
-<preliminaryNum>К3</preliminaryNum></equalpart></singlepart>
 <singlepart id="1C513" num="26" quantity="2">
 <explicitQuantity>2</explicitQuantity>
-<part ACADID="1A5EC" class="Plate" dstvName="t 10" id="1A5EB" name="t 10x143x173">
+<part ACADID="1DBA8" class="Plate" dstvName="t 10" id="1DBA7" name="t 10x143x173">
 <explicitQuantity>1</explicitQuantity>
 <role key="Gusset" name="Узловая фасонка"/>
 <length>173.181</length>
@@ -2625,9 +2652,42 @@
 <area1>24829.073</area1>
 <area2>24829.073</area2>
 <contourLength>633.103</contourLength>
-<ElementID>5484</ElementID>
-<ElementID>5492</ElementID></part>
-<equalpart ACADID="1A5BD" id="1A5BC" name="t 10x143x173">
+<ElementID>5492</ElementID>
+<ElementID>5484</ElementID></part>
+<equalpart ACADID="1DB79" id="1DB78" name="t 10x143x173">
+<explicitQuantity>1</explicitQuantity>
+<preliminaryNum>К3</preliminaryNum></equalpart></singlepart>
+<singlepart id="1C50C" num="19" quantity="4">
+<explicitQuantity>4</explicitQuantity>
+<part ACADID="1D430" class="Plate" dstvName="t 10" id="1D490" name="t 10x70x70">
+<explicitQuantity>1</explicitQuantity>
+<length>70.000</length>
+<paintArea>12599.999</paintArea>
+<numHoles>1</numHoles>
+<ObjectTopLevel>2290.001</ObjectTopLevel>
+<ObjectBottomLevel>2220.001</ObjectBottomLevel>
+<material key="C235" name="С235"/>
+<coating key="grundiert" name="Грунтовка"/>
+<weight>384.65</weight>
+<exactWeight>362.53</exactWeight>
+<density>7850.00</density>
+<preliminaryNum>К3</preliminaryNum>
+<thickness>10.000</thickness>
+<width>70.000</width>
+<area1>4900.000</area1>
+<area2>4900.000</area2>
+<contourLength>280.000</contourLength>
+<ElementID>6136</ElementID>
+<ElementID>6135</ElementID>
+<ElementID>6133</ElementID>
+<ElementID>6132</ElementID></part>
+<equalpart ACADID="1D42F" id="1D48E" name="t 10x70x70">
+<explicitQuantity>1</explicitQuantity>
+<preliminaryNum>К3</preliminaryNum></equalpart>
+<equalpart ACADID="1D42B" id="1D489" name="t 10x70x70">
+<explicitQuantity>1</explicitQuantity>
+<preliminaryNum>К3</preliminaryNum></equalpart>
+<equalpart ACADID="1D42C" id="1D487" name="t 10x70x70">
 <explicitQuantity>1</explicitQuantity>
 <preliminaryNum>К3</preliminaryNum></equalpart></singlepart>
 <singlepart id="1C512" num="25" quantity="1">
@@ -2696,7 +2756,7 @@
 <area2>36100.000</area2>
 <contourLength>760.000</contourLength>
 <ElementID>4095</ElementID></part></singlepart></proxy>
-<boltPatternOnSite ACADID="1C006" class="BoltPattern" id="1C0A0" name="M16 x 60 7798-70 8.8 - Нет - 2Ш2Г" nameBolt="Болт М16 - 6gx60.88 ГОСТ 7798-70" num="35" setBoltsType="1" setkey="1">
+<boltPatternOnSite ACADID="1D457" class="BoltPattern" id="1D46E" name="M16 x 60 7798-70 8.8 - Нет - 2Ш2Г" nameBolt="Болт М16 - 6gx60.88 ГОСТ 7798-70" num="35" setBoltsType="1" setkey="1">
 <explicitQuantity>1</explicitQuantity>
 <set key="2Na2W" name="2Ш2Г"/>
 <numBolts>1</numBolts>
@@ -2709,8 +2769,8 @@
 <fitLengthIncrement>0.000</fitLengthIncrement>
 <holeTolerance>3.000</holeTolerance>
 <mountLocation>0</mountLocation>
-<ConnectedPartsIds>1C50C,F135;1C511,1C233;</ConnectedPartsIds></boltPatternOnSite>
-<boltPatternOnSite ACADID="1C013" class="BoltPattern" id="1C08B" name="M16 x 60 7798-70 8.8 - Нет - 2Ш2Г" nameBolt="Болт М16 - 6gx60.88 ГОСТ 7798-70" num="35" setBoltsType="1" setkey="1">
+<ConnectedPartsIds>1C50C,F135;1C511,1D531;</ConnectedPartsIds></boltPatternOnSite>
+<boltPatternOnSite ACADID="1D455" class="BoltPattern" id="1D469" name="M16 x 60 7798-70 8.8 - Нет - 2Ш2Г" nameBolt="Болт М16 - 6gx60.88 ГОСТ 7798-70" num="35" setBoltsType="1" setkey="1">
 <explicitQuantity>1</explicitQuantity>
 <set key="2Na2W" name="2Ш2Г"/>
 <numBolts>1</numBolts>
@@ -2723,8 +2783,8 @@
 <fitLengthIncrement>0.000</fitLengthIncrement>
 <holeTolerance>3.000</holeTolerance>
 <mountLocation>0</mountLocation>
-<ConnectedPartsIds>1C50C,F135;1C511,1C0A8;</ConnectedPartsIds></boltPatternOnSite>
-<boltPatternOnSite ACADID="1C007" class="BoltPattern" id="1C083" name="M16 x 60 7798-70 8.8 - Нет - 2Ш2Г" nameBolt="Болт М16 - 6gx60.88 ГОСТ 7798-70" num="35" setBoltsType="1" setkey="1">
+<ConnectedPartsIds>1C50C,F135;1C511,1D4FA;</ConnectedPartsIds></boltPatternOnSite>
+<boltPatternOnSite ACADID="1D454" class="BoltPattern" id="1D46A" name="M16 x 60 7798-70 8.8 - Нет - 2Ш2Г" nameBolt="Болт М16 - 6gx60.88 ГОСТ 7798-70" num="35" setBoltsType="1" setkey="1">
 <explicitQuantity>1</explicitQuantity>
 <set key="2Na2W" name="2Ш2Г"/>
 <numBolts>1</numBolts>
@@ -2737,8 +2797,8 @@
 <fitLengthIncrement>0.000</fitLengthIncrement>
 <holeTolerance>3.000</holeTolerance>
 <mountLocation>0</mountLocation>
-<ConnectedPartsIds>1C50C,F135;1C511,1C233;</ConnectedPartsIds></boltPatternOnSite>
-<boltPatternOnSite ACADID="1C012" class="BoltPattern" id="1C08C" name="M16 x 60 7798-70 8.8 - Нет - 2Ш2Г" nameBolt="Болт М16 - 6gx60.88 ГОСТ 7798-70" num="35" setBoltsType="1" setkey="1">
+<ConnectedPartsIds>1C50C,F135;1C511,1D4FA;</ConnectedPartsIds></boltPatternOnSite>
+<boltPatternOnSite ACADID="1D458" class="BoltPattern" id="1D46D" name="M16 x 60 7798-70 8.8 - Нет - 2Ш2Г" nameBolt="Болт М16 - 6gx60.88 ГОСТ 7798-70" num="35" setBoltsType="1" setkey="1">
 <explicitQuantity>1</explicitQuantity>
 <set key="2Na2W" name="2Ш2Г"/>
 <numBolts>1</numBolts>
@@ -2751,8 +2811,8 @@
 <fitLengthIncrement>0.000</fitLengthIncrement>
 <holeTolerance>3.000</holeTolerance>
 <mountLocation>0</mountLocation>
-<ConnectedPartsIds>1C50C,F135;1C511,1C0A8;</ConnectedPartsIds></boltPatternOnSite>
-<boltPatternOnSite ACADID="1A5FE" class="BoltPattern" id="1A5FD" name="M16 x 60 7798-70 8.8 - Нет - 2Ш2Г" nameBolt="Болт М16 - 6gx60.88 ГОСТ 7798-70" num="35" setBoltsType="1" setkey="1">
+<ConnectedPartsIds>1C50C,F135;1C511,1D531;</ConnectedPartsIds></boltPatternOnSite>
+<boltPatternOnSite ACADID="1DBBA" class="BoltPattern" id="1DBB9" name="M16 x 60 7798-70 8.8 - Нет - 2Ш2Г" nameBolt="Болт М16 - 6gx60.88 ГОСТ 7798-70" num="35" setBoltsType="1" setkey="1">
 <explicitQuantity>1</explicitQuantity>
 <set key="2Na2W" name="2Ш2Г"/>
 <numBolts>2</numBolts>
@@ -2767,7 +2827,7 @@
 <holeTolerance>3.000</holeTolerance>
 <mountLocation>0</mountLocation>
 <ConnectedPartsIds>1C513,F135;1C514,187BA;</ConnectedPartsIds></boltPatternOnSite>
-<boltPatternOnSite ACADID="1A5CF" class="BoltPattern" id="1A5CE" name="M16 x 60 7798-70 8.8 - Нет - 2Ш2Г" nameBolt="Болт М16 - 6gx60.88 ГОСТ 7798-70" num="35" setBoltsType="1" setkey="1">
+<boltPatternOnSite ACADID="1DB8B" class="BoltPattern" id="1DB8A" name="M16 x 60 7798-70 8.8 - Нет - 2Ш2Г" nameBolt="Болт М16 - 6gx60.88 ГОСТ 7798-70" num="35" setBoltsType="1" setkey="1">
 <explicitQuantity>1</explicitQuantity>
 <set key="2Na2W" name="2Ш2Г"/>
 <numBolts>2</numBolts>
@@ -2857,7 +2917,7 @@
 <paintArea>3836229.917</paintArea>
 <ObjectTopLevel>4944.558</ObjectTopLevel>
 <ObjectBottomLevel>20.001</ObjectBottomLevel>
-<material key="C235" name="С235"/>
+<material key="C255" name="С255"/>
 <coating key="grundiert" name="Грунтовка"/>
 <weight>176397.63</weight>
 <exactWeight>175963.05</exactWeight>
@@ -2879,14 +2939,14 @@
 <ElementID>4102</ElementID></part></singlepart>
 <singlepart id="1C513" num="26" quantity="4">
 <explicitQuantity>4</explicitQuantity>
-<part ACADID="1C3D7" class="Plate" dstvName="t 10" id="1C3D6" name="t 10x143x173">
+<part ACADID="1DB4A" class="Plate" dstvName="t 10" id="1DB49" name="t 10x143x173">
 <explicitQuantity>1</explicitQuantity>
 <role key="Gusset" name="Узловая фасонка"/>
 <length>173.181</length>
 <paintArea>55989.180</paintArea>
 <numHoles>2</numHoles>
-<ObjectTopLevel>643.441</ObjectTopLevel>
-<ObjectBottomLevel>500.071</ObjectBottomLevel>
+<ObjectTopLevel>2779.931</ObjectTopLevel>
+<ObjectBottomLevel>2636.561</ObjectBottomLevel>
 <material key="C235" name="С235"/>
 <coating key="grundiert" name="Грунтовка"/>
 <weight>1949.08</weight>
@@ -2902,10 +2962,10 @@
 <ElementID>5251</ElementID>
 <ElementID>6102</ElementID>
 <ElementID>6106</ElementID></part>
-<equalpart ACADID="1C3A8" id="1C3A7" name="t 10x143x173">
+<equalpart ACADID="1C3D7" id="1C3D6" name="t 10x143x173">
 <explicitQuantity>1</explicitQuantity>
 <preliminaryNum>К2</preliminaryNum></equalpart>
-<equalpart ACADID="1A61B" id="1A61A" name="t 10x143x173">
+<equalpart ACADID="1C3A8" id="1C3A7" name="t 10x143x173">
 <explicitQuantity>1</explicitQuantity>
 <preliminaryNum>К2</preliminaryNum></equalpart>
 <equalpart ACADID="1A4F1" id="1A4F0" name="t 10x143x173">
@@ -2995,51 +3055,6 @@
 <holeTolerance>2.000</holeTolerance>
 <mountLocation>0</mountLocation>
 <ConnectedPartsIds>1C515,F137;1C4FC,F149;</ConnectedPartsIds></boltPatternOnSite>
-<boltPatternOnSite ACADID="1C3BA" class="BoltPattern" id="1C3B9" name="M16 x 60 7798-70 8.8 - Нет - 2Ш2Г" nameBolt="Болт М16 - 6gx60.88 ГОСТ 7798-70" num="35" setBoltsType="1" setkey="1">
-<explicitQuantity>1</explicitQuantity>
-<set key="2Na2W" name="2Ш2Г"/>
-<numBolts>2</numBolts>
-<role key="Bolt#2" name="Болт"/>
-<standard key="7798-70" name="7798-70"/>
-<diameter>16.000</diameter>
-<material key="8.8" name="8.8"/>
-<density>0.00</density>
-<boltLength>60.000</boltLength>
-<fitLength>20.000</fitLength>
-<fitLengthIncrement>0.000</fitLengthIncrement>
-<holeTolerance>3.000</holeTolerance>
-<mountLocation>0</mountLocation>
-<ConnectedPartsIds>1C513,F137;1C514,1C2C1;</ConnectedPartsIds></boltPatternOnSite>
-<boltPatternOnSite ACADID="1A503" class="BoltPattern" id="1A502" name="M16 x 60 7798-70 8.8 - Нет - 2Ш2Г" nameBolt="Болт М16 - 6gx60.88 ГОСТ 7798-70" num="35" setBoltsType="1" setkey="1">
-<explicitQuantity>1</explicitQuantity>
-<set key="2Na2W" name="2Ш2Г"/>
-<numBolts>2</numBolts>
-<role key="Bolt#2" name="Болт"/>
-<standard key="7798-70" name="7798-70"/>
-<diameter>16.000</diameter>
-<material key="8.8" name="8.8"/>
-<density>0.00</density>
-<boltLength>60.000</boltLength>
-<fitLength>20.000</fitLength>
-<fitLengthIncrement>0.000</fitLengthIncrement>
-<holeTolerance>3.000</holeTolerance>
-<mountLocation>0</mountLocation>
-<ConnectedPartsIds>1C513,F137;1C514,187BA;</ConnectedPartsIds></boltPatternOnSite>
-<boltPatternOnSite ACADID="1A62D" class="BoltPattern" id="1A62C" name="M16 x 60 7798-70 8.8 - Нет - 2Ш2Г" nameBolt="Болт М16 - 6gx60.88 ГОСТ 7798-70" num="35" setBoltsType="1" setkey="1">
-<explicitQuantity>1</explicitQuantity>
-<set key="2Na2W" name="2Ш2Г"/>
-<numBolts>2</numBolts>
-<role key="Bolt#2" name="Болт"/>
-<standard key="7798-70" name="7798-70"/>
-<diameter>16.000</diameter>
-<material key="8.8" name="8.8"/>
-<density>0.00</density>
-<boltLength>60.000</boltLength>
-<fitLength>20.000</fitLength>
-<fitLengthIncrement>0.000</fitLengthIncrement>
-<holeTolerance>3.000</holeTolerance>
-<mountLocation>0</mountLocation>
-<ConnectedPartsIds>1C513,F137;1C514,187BC;</ConnectedPartsIds></boltPatternOnSite>
 <boltPatternOnSite ACADID="1C3E9" class="BoltPattern" id="1C3E8" name="M16 x 60 7798-70 8.8 - Нет - 2Ш2Г" nameBolt="Болт М16 - 6gx60.88 ГОСТ 7798-70" num="35" setBoltsType="1" setkey="1">
 <explicitQuantity>1</explicitQuantity>
 <set key="2Na2W" name="2Ш2Г"/>
@@ -3055,6 +3070,51 @@
 <holeTolerance>3.000</holeTolerance>
 <mountLocation>0</mountLocation>
 <ConnectedPartsIds>1C513,F137;1C514,1C2C2;</ConnectedPartsIds></boltPatternOnSite>
+<boltPatternOnSite ACADID="1A503" class="BoltPattern" id="1A502" name="M16 x 60 7798-70 8.8 - Нет - 2Ш2Г" nameBolt="Болт М16 - 6gx60.88 ГОСТ 7798-70" num="35" setBoltsType="1" setkey="1">
+<explicitQuantity>1</explicitQuantity>
+<set key="2Na2W" name="2Ш2Г"/>
+<numBolts>2</numBolts>
+<role key="Bolt#2" name="Болт"/>
+<standard key="7798-70" name="7798-70"/>
+<diameter>16.000</diameter>
+<material key="8.8" name="8.8"/>
+<density>0.00</density>
+<boltLength>60.000</boltLength>
+<fitLength>20.000</fitLength>
+<fitLengthIncrement>0.000</fitLengthIncrement>
+<holeTolerance>3.000</holeTolerance>
+<mountLocation>0</mountLocation>
+<ConnectedPartsIds>1C513,F137;1C514,187BA;</ConnectedPartsIds></boltPatternOnSite>
+<boltPatternOnSite ACADID="1C3BA" class="BoltPattern" id="1C3B9" name="M16 x 60 7798-70 8.8 - Нет - 2Ш2Г" nameBolt="Болт М16 - 6gx60.88 ГОСТ 7798-70" num="35" setBoltsType="1" setkey="1">
+<explicitQuantity>1</explicitQuantity>
+<set key="2Na2W" name="2Ш2Г"/>
+<numBolts>2</numBolts>
+<role key="Bolt#2" name="Болт"/>
+<standard key="7798-70" name="7798-70"/>
+<diameter>16.000</diameter>
+<material key="8.8" name="8.8"/>
+<density>0.00</density>
+<boltLength>60.000</boltLength>
+<fitLength>20.000</fitLength>
+<fitLengthIncrement>0.000</fitLengthIncrement>
+<holeTolerance>3.000</holeTolerance>
+<mountLocation>0</mountLocation>
+<ConnectedPartsIds>1C513,F137;1C514,1C2C1;</ConnectedPartsIds></boltPatternOnSite>
+<boltPatternOnSite ACADID="1DB5C" class="BoltPattern" id="1DB5B" name="M16 x 60 7798-70 8.8 - Нет - 2Ш2Г" nameBolt="Болт М16 - 6gx60.88 ГОСТ 7798-70" num="35" setBoltsType="1" setkey="1">
+<explicitQuantity>1</explicitQuantity>
+<set key="2Na2W" name="2Ш2Г"/>
+<numBolts>2</numBolts>
+<role key="Bolt#2" name="Болт"/>
+<standard key="7798-70" name="7798-70"/>
+<diameter>16.000</diameter>
+<material key="8.8" name="8.8"/>
+<density>0.00</density>
+<boltLength>60.000</boltLength>
+<fitLength>20.000</fitLength>
+<fitLengthIncrement>0.000</fitLengthIncrement>
+<holeTolerance>3.000</holeTolerance>
+<mountLocation>0</mountLocation>
+<ConnectedPartsIds>1C513,F137;1C514,187BC;</ConnectedPartsIds></boltPatternOnSite>
 <boltPatternOnSite ACADID="F47E" class="BoltPattern" id="F47D" name="M16 x 55 7798-70 8.8 - Нет - 2Ш2Г" nameBolt="Болт М16 - 6gx55.88 ГОСТ 7798-70" num="36" setBoltsType="1" setkey="2">
 <explicitQuantity>1</explicitQuantity>
 <set key="2Na2W" name="2Ш2Г"/>
@@ -3131,7 +3191,7 @@
 <numHoles>8</numHoles>
 <ObjectTopLevel>5608.662</ObjectTopLevel>
 <ObjectBottomLevel>5347.533</ObjectBottomLevel>
-<material key="C235" name="С235"/>
+<material key="C345" name="С345"/>
 <coating key="grundiert" name="Грунтовка"/>
 <weight>121304.00</weight>
 <exactWeight>121176.82</exactWeight>
@@ -3171,7 +3231,7 @@
 <numHoles>4</numHoles>
 <ObjectTopLevel>5608.662</ObjectTopLevel>
 <ObjectBottomLevel>5347.533</ObjectBottomLevel>
-<material key="C235" name="С235"/>
+<material key="C345" name="С345"/>
 <coating key="grundiert" name="Грунтовка"/>
 <weight>121304.00</weight>
 <exactWeight>121240.41</exactWeight>
@@ -3223,7 +3283,7 @@
 <numHoles>12</numHoles>
 <ObjectTopLevel>5402.412</ObjectTopLevel>
 <ObjectBottomLevel>5141.283</ObjectBottomLevel>
-<material key="C235" name="С235"/>
+<material key="C345" name="С345"/>
 <coating key="grundiert" name="Грунтовка"/>
 <weight>121304.00</weight>
 <exactWeight>121113.22</exactWeight>
@@ -3263,7 +3323,7 @@
 <numHoles>12</numHoles>
 <ObjectTopLevel>5196.162</ObjectTopLevel>
 <ObjectBottomLevel>4935.033</ObjectBottomLevel>
-<material key="C235" name="С235"/>
+<material key="C345" name="С345"/>
 <coating key="grundiert" name="Грунтовка"/>
 <weight>121304.00</weight>
 <exactWeight>121113.22</exactWeight>
@@ -3298,7 +3358,7 @@
 <paintArea>669264.210</paintArea>
 <ObjectTopLevel>5364.482</ObjectTopLevel>
 <ObjectBottomLevel>5129.337</ObjectBottomLevel>
-<material key="C235" name="С235"/>
+<material key="C255" name="С255"/>
 <coating key="grundiert" name="Грунтовка"/>
 <weight>24798.80</weight>
 <exactWeight>24798.80</exactWeight>
@@ -3510,7 +3570,7 @@
 <paintArea>1491200.000</paintArea>
 <ObjectTopLevel>500.001</ObjectTopLevel>
 <ObjectBottomLevel>380.001</ObjectBottomLevel>
-<material key="C235" name="С235"/>
+<material key="C255" name="С255"/>
 <coating key="grundiert" name="Грунтовка"/>
 <weight>45600.00</weight>
 <exactWeight>45600.00</exactWeight>
@@ -3573,7 +3633,7 @@
 <paintArea>1833121.373</paintArea>
 <ObjectTopLevel>5137.232</ObjectTopLevel>
 <ObjectBottomLevel>217.768</ObjectBottomLevel>
-<material key="C235" name="С235"/>
+<material key="C255" name="С255"/>
 <coating key="grundiert" name="Грунтовка"/>
 <weight>67924.16</weight>
 <exactWeight>67924.16</exactWeight>
@@ -3596,14 +3656,14 @@
 <ElementID>4481</ElementID></part></singlepart>
 <singlepart id="1C51A" num="33" quantity="2">
 <explicitQuantity>2</explicitQuantity>
-<part ACADID="1A3B7" class="Plate" dstvName="t 10" id="1A3B6" name="t 10x80x100">
+<part ACADID="1DC3B" class="Plate" dstvName="t 10" id="1DC3A" name="t 10x80x100">
 <explicitQuantity>1</explicitQuantity>
 <role key="Tab_Plate#0" name="Пластина-ушко"/>
 <length>100.000</length>
 <paintArea>19600.000</paintArea>
 <numHoles>2</numHoles>
-<ObjectTopLevel>276.560</ObjectTopLevel>
-<ObjectBottomLevel>150.376</ObjectBottomLevel>
+<ObjectTopLevel>5204.624</ObjectTopLevel>
+<ObjectBottomLevel>5078.440</ObjectBottomLevel>
 <material key="C235" name="С235"/>
 <coating key="grundiert" name="Грунтовка"/>
 <weight>628.00</weight>
@@ -3615,22 +3675,22 @@
 <area1>8000.000</area1>
 <area2>8000.000</area2>
 <contourLength>360.000</contourLength>
-<ElementID>5164</ElementID>
 <ElementID>5192</ElementID>
+<ElementID>5188</ElementID>
 <ElementID>5184</ElementID>
-<ElementID>5188</ElementID></part>
-<equalpart ACADID="1A38A" id="1A389" name="t 10x80x100">
+<ElementID>5164</ElementID></part>
+<equalpart ACADID="1DBE1" id="1DBE0" name="t 10x80x100">
 <explicitQuantity>1</explicitQuantity>
 <preliminaryNum>СВ2</preliminaryNum></equalpart></singlepart>
 <singlepart id="1C510" num="23" quantity="2">
 <explicitQuantity>2</explicitQuantity>
-<part ACADID="1A3B5" class="Plate" dstvName="t 10" id="1A3B4" name="t 10x70x100">
+<part ACADID="1DC39" class="Plate" dstvName="t 10" id="1DC38" name="t 10x70x100">
 <explicitQuantity>1</explicitQuantity>
 <role key="Coverplate#0" name="Пластина-накладка"/>
 <length>100.000</length>
 <paintArea>17400.000</paintArea>
-<ObjectTopLevel>284.048</ObjectTopLevel>
-<ObjectBottomLevel>210.280</ObjectBottomLevel>
+<ObjectTopLevel>5144.720</ObjectTopLevel>
+<ObjectBottomLevel>5070.952</ObjectBottomLevel>
 <material key="C235" name="С235"/>
 <coating key="grundiert" name="Грунтовка"/>
 <weight>549.50</weight>
@@ -3643,95 +3703,424 @@
 <area2>7000.000</area2>
 <contourLength>340.000</contourLength>
 <ElementID>5191</ElementID>
-<ElementID>5163</ElementID>
 <ElementID>5187</ElementID>
-<ElementID>5183</ElementID></part>
-<equalpart ACADID="1A388" id="1A387" name="t 10x70x100">
+<ElementID>5183</ElementID>
+<ElementID>5163</ElementID></part>
+<equalpart ACADID="1DBDF" id="1DBDE" name="t 10x70x100">
 <explicitQuantity>1</explicitQuantity>
 <preliminaryNum>СВ2</preliminaryNum></equalpart></singlepart></proxy>
 <equalpart ACADID="187B9" explicitQuantity="1" id="187B8">
 <assemblyWeight>70279.16</assemblyWeight>
 <assemblyExactWeight>70190.68</assemblyExactWeight></equalpart></mainpart>
-<mainpart id="1C536" num="СФ3-1" quantity="4">
+<mainpart id="1DE71" num="37-1" quantity="4">
 <explicitQuantity>4</explicitQuantity>
-<proxy ACADID="1C230" basepart="1B209" id="1C22F">
-<assemblyWeight>24944.90</assemblyWeight>
-<assemblyExactWeight>24768.43</assemblyExactWeight>
+<proxy ACADID="1DE67" basepart="1DE5C" id="1DE66">
+<assemblyWeight>33449.00</assemblyWeight>
+<assemblyExactWeight>33449.00</assemblyExactWeight>
 <collisionSize x="0.000" y="0.000" z="0.000"/>
 <ApprovalStatus>Не установлено</ApprovalStatus>
 <GalvanizingConstructionClass>Нет</GalvanizingConstructionClass>
 <GalvanizingDetailClass>Нет</GalvanizingDetailClass>
 <GalvanizingConfidence>Нет</GalvanizingConfidence>
-<singlepart id="1C4FF" num="6" quantity="1">
+<singlepart id="1DE6F" num="39" quantity="1">
 <explicitQuantity>1</explicitQuantity>
-<part ACADID="1B20A" class="Beam" dstvName="Гн.  120x4" id="1B209" name="Гн.  120x4">
+<part ACADID="1DE5D" class="Beam" dstvName="L100x7" id="1DE5C" name="L100x7">
 <explicitQuantity>1</explicitQuantity>
-<role key="JoistVertBar" name="Стойка фахверка"/>
-<length>1550.000</length>
-<paintArea>722300.000</paintArea>
-<ObjectTopLevel>520.001</ObjectTopLevel>
-<ObjectBottomLevel>400.001</ObjectBottomLevel>
+<role key="Stringer" name="Косоур"/>
+<length>3100.000</length>
+<paintArea>1213386.500</paintArea>
+<ObjectTopLevel>5437.287</ObjectTopLevel>
+<ObjectBottomLevel>4964.649</ObjectBottomLevel>
 <material key="C235" name="С235"/>
 <coating key="grundiert" name="Грунтовка"/>
-<weight>22087.50</weight>
-<exactWeight>21999.51</exactWeight>
-<weightPerMeter>14250.00</weightPerMeter>
+<weight>33449.00</weight>
+<exactWeight>33449.00</exactWeight>
+<weightPerMeter>10790.00</weightPerMeter>
 <density>7850.00</density>
-<preliminaryNum>СФ3</preliminaryNum>
-<section key="RUS_S30245-3#@§@#SHS120x4" name="Гн.  120x4"/>
-<sysLength>1550.000</sysLength>
-<sawLength>1550.000</sawLength>
+<preliminaryNum>37</preliminaryNum>
+<section key="RUS_L8509_93#@§@#L100x7" name="L100x7"/>
+<sysLength>3100.000</sysLength>
+<sawLength>3100.000</sawLength>
 <angleX1>0.0000</angleX1>
 <angleY1>0.0000</angleY1>
 <angleX2>0.0000</angleX2>
 <angleY2>0.0000</angleY2>
 <SawCutInfo>0</SawCutInfo>
-<ElementID>6058</ElementID>
-<ElementID>6076</ElementID>
-<ElementID>6087</ElementID>
-<ElementID>6039</ElementID></part></singlepart>
-<singlepart id="1C511" num="24" quantity="2">
-<explicitQuantity>2</explicitQuantity>
-<part ACADID="1B364" class="Plate" dstvName="t 10" id="1B363" name="t 10x70x260">
-<explicitQuantity>1</explicitQuantity>
-<length>260.000</length>
-<paintArea>43000.000</paintArea>
-<numHoles>2</numHoles>
-<ObjectTopLevel>590.001</ObjectTopLevel>
-<ObjectBottomLevel>330.001</ObjectBottomLevel>
-<material key="C235" name="С235"/>
-<coating key="grundiert" name="Грунтовка"/>
-<weight>1428.70</weight>
-<exactWeight>1384.46</exactWeight>
-<density>7850.00</density>
-<preliminaryNum>СФ3</preliminaryNum>
-<thickness>10.000</thickness>
-<width>70.000</width>
-<area1>18200.000</area1>
-<area2>18200.000</area2>
-<contourLength>660.000</contourLength>
-<ElementID>6079</ElementID>
-<ElementID>6044</ElementID>
-<ElementID>6092</ElementID>
-<ElementID>6073</ElementID>
-<ElementID>6067</ElementID>
-<ElementID>6063</ElementID>
-<ElementID>6052</ElementID>
-<ElementID>4411</ElementID></part>
-<equalpart ACADID="12652" id="12651" name="t 10x70x260">
-<explicitQuantity>1</explicitQuantity>
-<preliminaryNum>СФ3</preliminaryNum></equalpart></singlepart></proxy>
-<equalpart ACADID="1C232" explicitQuantity="1" id="1C231">
-<assemblyWeight>24944.90</assemblyWeight>
-<assemblyExactWeight>24768.43</assemblyExactWeight></equalpart>
-<equalpart ACADID="1C234" explicitQuantity="1" id="1C233">
-<assemblyWeight>24944.90</assemblyWeight>
-<assemblyExactWeight>24768.43</assemblyExactWeight></equalpart>
-<equalpart ACADID="1C236" explicitQuantity="1" id="1C235">
-<assemblyWeight>24944.90</assemblyWeight>
-<assemblyExactWeight>24768.43</assemblyExactWeight></equalpart></mainpart></parts>
+<ElementID>6176</ElementID>
+<ElementID>6172</ElementID>
+<ElementID>6174</ElementID>
+<ElementID>6175</ElementID></part></singlepart></proxy>
+<equalpart ACADID="1DE69" explicitQuantity="1" id="1DE68">
+<assemblyWeight>33449.00</assemblyWeight>
+<assemblyExactWeight>33449.00</assemblyExactWeight></equalpart>
+<equalpart ACADID="1DE6B" explicitQuantity="1" id="1DE6A">
+<assemblyWeight>33449.00</assemblyWeight>
+<assemblyExactWeight>33449.00</assemblyExactWeight></equalpart>
+<equalpart ACADID="1DE6D" explicitQuantity="1" id="1DE6C">
+<assemblyWeight>33449.00</assemblyWeight>
+<assemblyExactWeight>33449.00</assemblyExactWeight></equalpart></mainpart></parts>
 <DerivedDocuments>
-<Details/>
+<Details>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="30.08.2023" drawingNumber="62" drawingType="0" fileLocation="D:\Объекты\Московское 15 котельная\Git222\Project_kot\Kotelnea\Details\" fileName="Вид спереди л.62.dwg" id="1E2AB" prototypeName="RUS-STAMP-KMD-A3-H">
+<DetailObject DetailName="2F49" DrawingStyle="Разрез ВО маркировка КМД" ProcessDescription="Выбранные Камеры Вид На отд.листах A3 [30.08.2023, 12:10:40]" Scale="1:50" Status="Соответствует модели" Title="Разрез (M1:50)" drawingType="0" id="1E2AA"/></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="28.08.2023" drawingNumber="22" drawingType="1" fileLocation="D:\Объекты\Московское 15 котельная\Git222\Project_kot\Kotelnea\Details\" fileName="л.22.dwg" id="1C801" prototypeName="RUS-STAMP-A3">
+<SingleParts>
+<Item>17</Item></SingleParts>
+<DetailObject DetailName="235C" DrawingStyle="Процесс - ОтдДет Профиль 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Все Отд.Профили По № поз. На отд.листах A3 [26.08.2023, 17:07:24]" Scale="1:5" Status="Соответствует модели" Title="поз.17  (2 шт.) Гн.  120x4x4540 С255" drawingType="1" id="1C800">
+<SingleParts>
+<Item>17</Item></SingleParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="29.08.2023" drawingNumber="24" drawingType="2" fileLocation="D:\Объекты\Московское 15 котельная\Git222\Project_kot\Kotelnea\Details\" fileName="К2-3 л.24.dwg" id="1D69F" prototypeName="RUS-STAMP-KMD-A3-H">
+<MainParts>
+<Item>К2-3</Item></MainParts>
+<DetailObject DetailName="2F49" DrawingStyle="Процесс - Колонна, разрезы автоматически" ProcessDescription="Выбранные Гл.эл-ты По № поз. На отд.листах A3 [28.08.2023, 13:17:35]" Scale="1:10" Status="Соответствует модели" Title="Марка К2-3 (1 шт.)" drawingType="2" id="1D69E">
+<MainParts>
+<Item>К2-3</Item></MainParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="29.08.2023" drawingNumber="47" drawingType="1" fileLocation="D:\Объекты\Московское 15 котельная\Git222\Project_kot\Kotelnea\Details\" fileName="л.47.dwg" id="1DF14" prototypeName="RUS-STAMP-KMD-A4-V">
+<SingleParts>
+<Item>22</Item></SingleParts>
+<DetailObject DetailName="1D6C" DrawingStyle="Процесс - ОтдДет пластина 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Выбранные Отд.Пластины По № поз. На отд.листах A4 [29.08.2023, 15:11:23]" Scale="1:5" Status="Соответствует модели" Title="поз.22 (M1:5) t10x185x100 С235 " drawingType="1" id="1DF13">
+<SingleParts>
+<Item>22</Item></SingleParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="28.08.2023" drawingNumber="23" drawingType="1" fileLocation="D:\Объекты\Московское 15 котельная\Git222\Project_kot\Kotelnea\Details\" fileName="л.23.dwg" id="1C805" prototypeName="RUS-STAMP-A3">
+<SingleParts>
+<Item>18</Item></SingleParts>
+<DetailObject DetailName="235C" DrawingStyle="Процесс - ОтдДет Профиль 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Все Отд.Профили По № поз. На отд.листах A3 [26.08.2023, 17:07:24]" Scale="1:5" Status="Соответствует модели" Title="поз.18  (1 шт.) I25Б1x4720 С345" drawingType="1" id="1C804">
+<SingleParts>
+<Item>18</Item></SingleParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="29.08.2023" drawingNumber="53" drawingType="1" fileLocation="D:\Объекты\Московское 15 котельная\Git222\Project_kot\Kotelnea\Details\" fileName="л.53.dwg" id="1DF2C" prototypeName="RUS-STAMP-KMD-A4-V">
+<SingleParts>
+<Item>28</Item></SingleParts>
+<DetailObject DetailName="1D6C" DrawingStyle="Процесс - ОтдДет пластина 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Выбранные Отд.Пластины По № поз. На отд.листах A4 [29.08.2023, 15:11:23]" Scale="1:2" Status="Соответствует модели" Title="поз.28 (M1:2) t10x190x190 С235 " drawingType="1" id="1DF2B">
+<SingleParts>
+<Item>28</Item></SingleParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="29.08.2023" drawingNumber="43" drawingType="2" fileLocation="D:\Объекты\Московское 15 котельная\Git222\Project_kot\Kotelnea\Details\" fileName="П4-1 л.43.dwg" id="1DE8F" prototypeName="RUS-STAMP-KMD-A3-H">
+<MainParts>
+<Item>П4-1</Item></MainParts>
+<DetailObject DetailName="2F49" DrawingStyle="Распорная труба - спереди,снизу" ProcessDescription="Выбранные Гл.эл-ты По № поз. На отд.листах A3 [29.08.2023, 14:16:36]" Scale="1:10" Status="Соответствует модели" Title="Связь П4-1 (1 шт.)" drawingType="2" id="1DE8E">
+<MainParts>
+<Item>П4-1</Item></MainParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="29.08.2023" drawingNumber="42" drawingType="2" fileLocation="D:\Объекты\Московское 15 котельная\Git222\Project_kot\Kotelnea\Details\" fileName="П3-1 л.42.dwg" id="1DE8B" prototypeName="RUS-STAMP-KMD-A3-H">
+<MainParts>
+<Item>П3-1</Item></MainParts>
+<DetailObject DetailName="2F49" DrawingStyle="Распорная труба - спереди,снизу" ProcessDescription="Выбранные Гл.эл-ты По № поз. На отд.листах A3 [29.08.2023, 14:16:36]" Scale="1:10" Status="Соответствует модели" Title="Связь П3-1 (2 шт.)" drawingType="2" id="1DE8A">
+<MainParts>
+<Item>П3-1</Item></MainParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="29.08.2023" drawingNumber="44" drawingType="1" fileLocation="D:\Объекты\Московское 15 котельная\Git222\Project_kot\Kotelnea\Details\" fileName="л.44.dwg" id="1DF08" prototypeName="RUS-STAMP-KMD-A4-V">
+<SingleParts>
+<Item>19</Item></SingleParts>
+<DetailObject DetailName="1D6C" DrawingStyle="Процесс - ОтдДет пластина 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Выбранные Отд.Пластины По № поз. На отд.листах A4 [29.08.2023, 15:11:23]" Scale="1:2" Status="Соответствует модели" Title="поз.19 (M1:2) t10x70x70 С235 " drawingType="1" id="1DF07">
+<SingleParts>
+<Item>19</Item></SingleParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="28.08.2023" drawingNumber="14" drawingType="1" fileLocation="D:\Объекты\Московское 15 котельная\Git222\Project_kot\Kotelnea\Details\" fileName="л.14.dwg" id="1C7E1" prototypeName="RUS-STAMP-A3">
+<SingleParts>
+<Item>9</Item></SingleParts>
+<DetailObject DetailName="235C" DrawingStyle="Процесс - ОтдДет Профиль 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Все Отд.Профили По № поз. На отд.листах A3 [26.08.2023, 17:07:24]" Scale="1:5" Status="Соответствует модели" Title="поз.9  (3 шт.) Гн.&#x9;200x6x4512 С255" drawingType="1" id="1C7E0">
+<SingleParts>
+<Item>9</Item></SingleParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="29.08.2023" drawingNumber="12" drawingType="2" fileLocation="D:\Объекты\Московское 15 котельная\Git222\Project_kot\Kotelnea\Details\" fileName="П1-1 л.12.dwg" id="1DE83" prototypeName="RUS-STAMP-KMD-A3-H">
+<MainParts>
+<Item>П1-1</Item></MainParts>
+<DetailObject DetailName="2F49" DrawingStyle="Распорная труба - спереди,снизу" ProcessDescription="Выбранные Гл.эл-ты По № поз. На отд.листах A3 [29.08.2023, 14:16:36]" Scale="1:10" Status="Соответствует модели" Title="Связь П1-1 (5 шт.)" drawingType="2" id="1DE82">
+<MainParts>
+<Item>П1-1</Item></MainParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="29.08.2023" drawingNumber="46" drawingType="1" fileLocation="D:\Объекты\Московское 15 котельная\Git222\Project_kot\Kotelnea\Details\" fileName="л.46.dwg" id="1DF10" prototypeName="RUS-STAMP-KMD-A4-V">
+<SingleParts>
+<Item>21</Item></SingleParts>
+<DetailObject DetailName="1D6C" DrawingStyle="Процесс - ОтдДет пластина 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Выбранные Отд.Пластины По № поз. На отд.листах A4 [29.08.2023, 15:11:23]" Scale="1:2" Status="Соответствует модели" Title="поз.21 (M1:2) t10x110x60 С235 " drawingType="1" id="1DF0F">
+<SingleParts>
+<Item>21</Item></SingleParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="29.08.2023" drawingNumber="56" drawingType="1" fileLocation="D:\Объекты\Московское 15 котельная\Git222\Project_kot\Kotelnea\Details\" fileName="л.56.dwg" id="1DF38" prototypeName="RUS-STAMP-KMD-A4-V">
+<SingleParts>
+<Item>31</Item></SingleParts>
+<DetailObject DetailName="1D6C" DrawingStyle="Процесс - ОтдДет пластина 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Выбранные Отд.Пластины По № поз. На отд.листах A4 [29.08.2023, 15:11:23]" Scale="1:3" Status="Соответствует модели" Title="поз.31 (M1:3) t10x140x70 С235 " drawingType="1" id="1DF37">
+<SingleParts>
+<Item>31</Item></SingleParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="29.08.2023" drawingNumber="02" drawingType="2" fileLocation="D:\Объекты\Московское 15 котельная\Git222\Project_kot\Kotelnea\Details\" fileName="К1-2 л.02.dwg" id="1D68F" prototypeName="RUS-STAMP-KMD-A3-H">
+<MainParts>
+<Item>К1-2</Item></MainParts>
+<DetailObject DetailName="2F49" DrawingStyle="Процесс - Колонна, разрезы автоматически" ProcessDescription="Выбранные Гл.эл-ты По № поз. На отд.листах A3 [28.08.2023, 13:17:35]" Scale="1:10" Status="Соответствует модели" Title="Марка К1-2 (1 шт.)" drawingType="2" id="1D68E">
+<MainParts>
+<Item>К1-2</Item></MainParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="28.08.2023" drawingNumber="07" drawingType="1" fileLocation="D:\Объекты\Московское 15 котельная\Git222\Project_kot\Kotelnea\Details\" fileName="л.07.dwg" id="1C7C5" prototypeName="RUS-STAMP-A3">
+<SingleParts>
+<Item>2</Item></SingleParts>
+<DetailObject DetailName="235C" DrawingStyle="Процесс - ОтдДет Профиль 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Все Отд.Профили По № поз. На отд.листах A3 [26.08.2023, 17:07:24]" Scale="1:5" Status="Соответствует модели" Title="поз.2  (8 шт.) Гн.  120x4x3200 С255" drawingType="1" id="1C7C4">
+<SingleParts>
+<Item>2</Item></SingleParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="28.08.2023" drawingNumber="16" drawingType="1" fileLocation="D:\Объекты\Московское 15 котельная\Git222\Project_kot\Kotelnea\Details\" fileName="л.16.dwg" id="1C7E9" prototypeName="RUS-STAMP-A3">
+<SingleParts>
+<Item>11</Item></SingleParts>
+<DetailObject DetailName="235C" DrawingStyle="Процесс - ОтдДет Профиль 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Все Отд.Профили По № поз. На отд.листах A3 [26.08.2023, 17:07:24]" Scale="1:5" Status="Соответствует модели" Title="поз.11  (2 шт.) I20Ш1x3166 С345" drawingType="1" id="1C7E8">
+<SingleParts>
+<Item>11</Item></SingleParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="28.08.2023" drawingNumber="11" drawingType="1" fileLocation="D:\Объекты\Московское 15 котельная\Git222\Project_kot\Kotelnea\Details\" fileName="л.11.dwg" id="1C7D5" prototypeName="RUS-STAMP-A3">
+<SingleParts>
+<Item>6</Item></SingleParts>
+<DetailObject DetailName="235C" DrawingStyle="Процесс - ОтдДет Профиль 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Все Отд.Профили По № поз. На отд.листах A3 [26.08.2023, 17:07:24]" Scale="1:5" Status="Соответствует модели" Title="поз.6  (4 шт.) Гн.  120x4x1550 С255" drawingType="1" id="1C7D4">
+<SingleParts>
+<Item>6</Item></SingleParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="29.08.2023" drawingNumber="49" drawingType="1" fileLocation="D:\Объекты\Московское 15 котельная\Git222\Project_kot\Kotelnea\Details\" fileName="л.49.dwg" id="1DF1C" prototypeName="RUS-STAMP-KMD-A4-V">
+<SingleParts>
+<Item>24</Item></SingleParts>
+<DetailObject DetailName="1D6C" DrawingStyle="Процесс - ОтдДет пластина 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Выбранные Отд.Пластины По № поз. На отд.листах A4 [29.08.2023, 15:11:23]" Scale="1:2" Status="Соответствует модели" Title="поз.24 (12 шт.) t10x260x70 С235" drawingType="1" id="1DF1B">
+<SingleParts>
+<Item>24</Item></SingleParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="29.08.2023" drawingNumber="04" drawingType="2" fileLocation="D:\Объекты\Московское 15 котельная\Git222\Project_kot\Kotelnea\Details\" fileName="К2-1 л.04.dwg" id="1D697" prototypeName="RUS-STAMP-KMD-A3-H">
+<MainParts>
+<Item>К2-1</Item></MainParts>
+<DetailObject DetailName="2F49" DrawingStyle="Процесс - Колонна, разрезы автоматически" ProcessDescription="Выбранные Гл.эл-ты По № поз. На отд.листах A3 [28.08.2023, 13:17:35]" Scale="1:10" Status="Соответствует модели" Title="Марка К2-1 (1 шт.)" drawingType="2" id="1D696">
+<MainParts>
+<Item>К2-1</Item></MainParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="29.08.2023" drawingNumber="55" drawingType="1" fileLocation="D:\Объекты\Московское 15 котельная\Git222\Project_kot\Kotelnea\Details\" fileName="л.55.dwg" id="1DF34" prototypeName="RUS-STAMP-KMD-A4-V">
+<SingleParts>
+<Item>30</Item></SingleParts>
+<DetailObject DetailName="1D6C" DrawingStyle="Процесс - ОтдДет пластина 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Выбранные Отд.Пластины По № поз. На отд.листах A4 [29.08.2023, 15:11:23]" Scale="1:5" Status="Соответствует модели" Title="поз.30 (M1:5) t10x210x210 С235 " drawingType="1" id="1DF33">
+<SingleParts>
+<Item>30</Item></SingleParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="30.08.2023" drawingNumber="64" drawingType="0" fileLocation="D:\Объекты\Московское 15 котельная\Git222\Project_kot\Kotelnea\Details\" fileName="План покрытия л.64.dwg" id="1E2B8" prototypeName="RUS-STAMP-KMD-A3-H">
+<DetailObject DetailName="2F49" DrawingStyle="Вид ВО маркировка КМД" ProcessDescription="Выбранные Камеры Вид На отд.листах A3 [30.08.2023, 12:33:03]" Scale="1:50" Status="Соответствует модели" Title="Вид" drawingType="0" id="1E2B7"/></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="30.08.2023" drawingNumber="40" drawingType="0" fileLocation="D:\Объекты\Московское 15 котельная\Git222\Project_kot\Kotelnea\Details\" fileName="Общий вид_л.40.dwg" id="1DCBA" prototypeName="RUS-STAMP-KMD-A3-H">
+<DetailObject DetailName="2F49" DrawingStyle="Вид В маркировка КМД" Scale="1:50" Status="Соответствует модели" Title="Общий вид" drawingType="0" id="1DCB9"/></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="29.08.2023" drawingNumber="50" drawingType="1" fileLocation="D:\Объекты\Московское 15 котельная\Git222\Project_kot\Kotelnea\Details\" fileName="л.50.dwg" id="1DF20" prototypeName="RUS-STAMP-KMD-A4-V">
+<SingleParts>
+<Item>25</Item></SingleParts>
+<DetailObject DetailName="1D6C" DrawingStyle="Процесс - ОтдДет пластина 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Выбранные Отд.Пластины По № поз. На отд.листах A4 [29.08.2023, 15:11:23]" Scale="1:5" Status="Соответствует модели" Title="поз.25 (M1:5) t20x400x400 С235 " drawingType="1" id="1DF1F">
+<SingleParts>
+<Item>25</Item></SingleParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="29.08.2023" drawingNumber="58" drawingType="1" fileLocation="D:\Объекты\Московское 15 котельная\Git222\Project_kot\Kotelnea\Details\" fileName="л.58.dwg" id="1DF40" prototypeName="RUS-STAMP-KMD-A4-V">
+<SingleParts>
+<Item>33</Item></SingleParts>
+<DetailObject DetailName="1D6C" DrawingStyle="Процесс - ОтдДет пластина 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Выбранные Отд.Пластины По № поз. На отд.листах A4 [29.08.2023, 15:11:23]" Scale="1:3" Status="Соответствует модели" Title="поз.33 (M1:3) t10x100x80 С235 " drawingType="1" id="1DF3F">
+<SingleParts>
+<Item>33</Item></SingleParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="28.08.2023" drawingNumber="18" drawingType="1" fileLocation="D:\Объекты\Московское 15 котельная\Git222\Project_kot\Kotelnea\Details\" fileName="л.18.dwg" id="1C7F1" prototypeName="RUS-STAMP-A3">
+<SingleParts>
+<Item>13</Item></SingleParts>
+<DetailObject DetailName="235C" DrawingStyle="Процесс - ОтдДет Профиль 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Все Отд.Профили По № поз. На отд.листах A3 [26.08.2023, 17:07:24]" Scale="1:5" Status="Соответствует модели" Title="поз.13  (2 шт.) I25Б1x4720 С345" drawingType="1" id="1C7F0">
+<SingleParts>
+<Item>13</Item></SingleParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="29.08.2023" drawingNumber="61" drawingType="0" fileLocation="D:\Объекты\Московское 15 котельная\Git222\Project_kot\Kotelnea\Details\" fileName="План колонн_л.61.dwg" id="1E22D" prototypeName="RUS-STAMP-KMD-A3-H">
+<DetailObject DetailName="2F49" DrawingStyle="КМ План колонн" Scale="1:50" Status="Соответствует модели" Title="План колонн" drawingType="0" id="1E22C"/></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="30.08.2023" drawingNumber="60" drawingType="0" fileLocation="D:\Объекты\Московское 15 котельная\Git222\Project_kot\Kotelnea\Details\" fileName="Вид по оси Г л.60.dwg" id="1E28A" prototypeName="RUS-STAMP-KMD-A3-H">
+<DetailObject DetailName="2F49" DrawingStyle="Разрез ВО маркировка КМД" ProcessDescription="Все Камеры Вид На отд.листах A3 [30.08.2023, 11:54:08]" Scale="1:50" Status="Соответствует модели" Title="Разрез (M1:50)" drawingType="0" id="1E289"/></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="28.08.2023" drawingNumber="20" drawingType="1" fileLocation="D:\Объекты\Московское 15 котельная\Git222\Project_kot\Kotelnea\Details\" fileName="л.20.dwg" id="1C7F9" prototypeName="RUS-STAMP-A3">
+<SingleParts>
+<Item>15</Item></SingleParts>
+<DetailObject DetailName="235C" DrawingStyle="Процесс - ОтдДет Профиль 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Все Отд.Профили По № поз. На отд.листах A3 [26.08.2023, 17:07:24]" Scale="1:5" Status="Соответствует модели" Title="поз.15  (2 шт.) Гн.  100x50x5x6481 С255" drawingType="1" id="1C7F8">
+<SingleParts>
+<Item>15</Item></SingleParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="29.08.2023" drawingNumber="26" drawingType="2" fileLocation="D:\Объекты\Московское 15 котельная\Git222\Project_kot\Kotelnea\Details\" fileName="К3-2 л.26.dwg" id="1D6A7" prototypeName="RUS-STAMP-KMD-A3-H">
+<MainParts>
+<Item>К3-2</Item></MainParts>
+<DetailObject DetailName="2F49" DrawingStyle="Процесс - Колонна, разрезы автоматически" ProcessDescription="Выбранные Гл.эл-ты По № поз. На отд.листах A3 [28.08.2023, 13:17:35]" Scale="1:10" Status="Соответствует модели" Title="Марка К3-2 (1 шт.)" drawingType="2" id="1D6A6">
+<MainParts>
+<Item>К3-2</Item></MainParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="28.08.2023" drawingNumber="13" drawingType="1" fileLocation="D:\Объекты\Московское 15 котельная\Git222\Project_kot\Kotelnea\Details\" fileName="л.13.dwg" id="1C7DD" prototypeName="RUS-STAMP-A3">
+<SingleParts>
+<Item>8</Item></SingleParts>
+<DetailObject DetailName="235C" DrawingStyle="Процесс - ОтдДет Профиль 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Все Отд.Профили По № поз. На отд.листах A3 [26.08.2023, 17:07:24]" Scale="1:5" Status="Соответствует модели" Title="поз.8  (3 шт.) Гн.&#x9;200x6x4925 С255" drawingType="1" id="1C7DC">
+<SingleParts>
+<Item>8</Item></SingleParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="28.08.2023" drawingNumber="10" drawingType="1" fileLocation="D:\Объекты\Московское 15 котельная\Git222\Project_kot\Kotelnea\Details\" fileName="л.10.dwg" id="1C7D1" prototypeName="RUS-STAMP-A3">
+<SingleParts>
+<Item>5</Item></SingleParts>
+<DetailObject DetailName="235C" DrawingStyle="Процесс - ОтдДет Профиль 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Все Отд.Профили По № поз. На отд.листах A3 [26.08.2023, 17:07:24]" Scale="1:5" Status="Соответствует модели" Title="поз.5  (4 шт.) Гн.  120x4x2090 С255" drawingType="1" id="1C7D0">
+<SingleParts>
+<Item>5</Item></SingleParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="29.08.2023" drawingNumber="48" drawingType="1" fileLocation="D:\Объекты\Московское 15 котельная\Git222\Project_kot\Kotelnea\Details\" fileName="л.48.dwg" id="1DF18" prototypeName="RUS-STAMP-KMD-A4-V">
+<SingleParts>
+<Item>23</Item></SingleParts>
+<DetailObject DetailName="1D6C" DrawingStyle="Процесс - ОтдДет пластина 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Выбранные Отд.Пластины По № поз. На отд.листах A4 [29.08.2023, 15:11:23]" Scale="1:2" Status="Соответствует модели" Title="поз.23 (12 шт.) t10x100x70 С235" drawingType="1" id="1DF17">
+<SingleParts>
+<Item>23</Item></SingleParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="29.08.2023" drawingNumber="52" drawingType="1" fileLocation="D:\Объекты\Московское 15 котельная\Git222\Project_kot\Kotelnea\Details\" fileName="л.52.dwg" id="1DF28" prototypeName="RUS-STAMP-KMD-A4-V">
+<SingleParts>
+<Item>27</Item></SingleParts>
+<DetailObject DetailName="1D6C" DrawingStyle="Процесс - ОтдДет пластина 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Выбранные Отд.Пластины По № поз. На отд.листах A4 [29.08.2023, 15:11:23]" Scale="1:2" Status="Соответствует модели" Title="поз.27 (M1:2) t10x100x90 С235 " drawingType="1" id="1DF27">
+<SingleParts>
+<Item>27</Item></SingleParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="29.08.2023" drawingNumber="01" drawingType="2" fileLocation="D:\Объекты\Московское 15 котельная\Git222\Project_kot\Kotelnea\Details\" fileName="К1-1 л.01.dwg" id="1DA05" prototypeName="RUS-STAMP-KMD-A3-H">
+<MainParts>
+<Item>К1-1</Item></MainParts>
+<DetailObject DetailName="2F49" DrawingStyle="Процесс - Колонна, разрезы автоматически" ProcessDescription="Выбранные Гл.эл-ты По № поз. На отд.листах A3 [28.08.2023, 15:42:44]" Scale="1:10" Status="Соответствует модели" Title="Марка К1-1 (1 шт.)" drawingType="2" id="1DA04">
+<MainParts>
+<Item>К1-1</Item></MainParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="29.08.2023" drawingNumber="39" drawingType="2" fileLocation="D:\Объекты\Московское 15 котельная\Git222\Project_kot\Kotelnea\Details\" fileName="СФ5-1 л.39.dwg" id="1DC89" prototypeName="RUS-STAMP-KMD-A3-H">
+<MainParts>
+<Item>СФ5-1</Item></MainParts>
+<DetailObject DetailName="2F49" DrawingStyle="Процесс - Колонна, разрезы автоматически" ProcessDescription="Выбранные Гл.эл-ты По № поз. На отд.листах A3 [29.08.2023, 11:53:06]" Scale="1:10" Status="Соответствует модели" Title="Марка СФ5-1 (2 шт.)" drawingType="2" id="1DC88">
+<MainParts>
+<Item>СФ5-1</Item></MainParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="29.08.2023" drawingNumber="31" drawingType="2" fileLocation="D:\Объекты\Московское 15 котельная\Git222\Project_kot\Kotelnea\Details\" fileName="СГ1-1 л.31.dwg" id="1DB1D" prototypeName="RUS-STAMP-KMD-A3-H">
+<MainParts>
+<Item>СГ1-1</Item></MainParts>
+<DetailObject DetailName="2F49" DrawingStyle="Процесс - Балка, разрезы автоматически" ProcessDescription="Выбранные Гл.эл-ты По № поз. На отд.листах A3 [29.08.2023, 11:23:51]" Scale="1:10" Status="Соответствует модели" Title="Марка СГ1-1 (8 шт.)" drawingType="2" id="1DB1C">
+<MainParts>
+<Item>СГ1-1</Item></MainParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="29.08.2023" drawingNumber="03" drawingType="2" fileLocation="D:\Объекты\Московское 15 котельная\Git222\Project_kot\Kotelnea\Details\" fileName="К1-3 л.03.dwg" id="1D693" prototypeName="RUS-STAMP-KMD-A3-H">
+<MainParts>
+<Item>К1-3</Item></MainParts>
+<DetailObject DetailName="2F49" DrawingStyle="Процесс - Колонна, разрезы автоматически" ProcessDescription="Выбранные Гл.эл-ты По № поз. На отд.листах A3 [28.08.2023, 13:17:35]" Scale="1:10" Status="Соответствует модели" Title="Марка К1-3 (1 шт.)" drawingType="2" id="1D692">
+<MainParts>
+<Item>К1-3</Item></MainParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="28.08.2023" drawingNumber="21" drawingType="1" fileLocation="D:\Объекты\Московское 15 котельная\Git222\Project_kot\Kotelnea\Details\" fileName="л.21.dwg" id="1C7FD" prototypeName="RUS-STAMP-A3">
+<SingleParts>
+<Item>16</Item></SingleParts>
+<DetailObject DetailName="235C" DrawingStyle="Процесс - ОтдДет Профиль 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Все Отд.Профили По № поз. На отд.листах A3 [26.08.2023, 17:07:24]" Scale="1:5" Status="Соответствует модели" Title="поз.16  (2 шт.) Гн.  120x4x4540 С255" drawingType="1" id="1C7FC">
+<SingleParts>
+<Item>16</Item></SingleParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="28.08.2023" drawingNumber="15" drawingType="1" fileLocation="D:\Объекты\Московское 15 котельная\Git222\Project_kot\Kotelnea\Details\" fileName="л.15.dwg" id="1C7E5" prototypeName="RUS-STAMP-A3">
+<SingleParts>
+<Item>10</Item></SingleParts>
+<DetailObject DetailName="235C" DrawingStyle="Процесс - ОтдДет Профиль 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Все Отд.Профили По № поз. На отд.листах A3 [26.08.2023, 17:07:24]" Scale="1:5" Status="Соответствует модели" Title="поз.10  (2 шт.) I20Ш1x3166 С345" drawingType="1" id="1C7E4">
+<SingleParts>
+<Item>10</Item></SingleParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="30.08.2023" drawingNumber="63" drawingType="0" fileLocation="D:\Объекты\Московское 15 котельная\Git222\Project_kot\Kotelnea\Details\" fileName="Вид по оси Е л.63.dwg" id="1E292" prototypeName="RUS-STAMP-KMD-A3-H">
+<DetailObject DetailName="2F49" DrawingStyle="Разрез ВО маркировка КМД" ProcessDescription="Все Камеры Вид На отд.листах A3 [30.08.2023, 11:54:08]" Scale="1:50" Status="Соответствует модели" Title="Разрез (M1:50)" drawingType="0" id="1E291"/></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="29.08.2023" drawingNumber="32" drawingType="2" fileLocation="D:\Объекты\Московское 15 котельная\Git222\Project_kot\Kotelnea\Details\" fileName="СВ1-1 л.32.dwg" id="1DB38" prototypeName="RUS-STAMP-KMD-A3-H">
+<MainParts>
+<Item>СВ1-1</Item></MainParts>
+<DetailObject DetailName="2F49" DrawingStyle="Процесс - Балка, разрезы автоматически" ProcessDescription="Выбранные Гл.эл-ты По № поз. На отд.листах A3 [29.08.2023, 11:34:25]" Scale="1:10" Status="Соответствует модели" Title="Марка СВ1-1 (4 шт.)" drawingType="2" id="1DB37">
+<MainParts>
+<Item>СВ1-1</Item></MainParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="28.08.2023" drawingNumber="06" drawingType="1" fileLocation="D:\Объекты\Московское 15 котельная\Git222\Project_kot\Kotelnea\Details\" fileName="л.06.dwg" id="1C7C1" prototypeName="RUS-STAMP-A3">
+<SingleParts>
+<Item>1</Item></SingleParts>
+<DetailObject DetailName="235C" DrawingStyle="Процесс - ОтдДет Профиль 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Все Отд.Профили По № поз. На отд.листах A3 [26.08.2023, 17:07:24]" Scale="1:5" Status="Соответствует модели" Title="поз.1 (M1:5) (8 шт.) Гн.  100x50x5x2366 С255" drawingType="1" id="1C7C0">
+<SingleParts>
+<Item>1</Item></SingleParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="28.08.2023" drawingNumber="08" drawingType="1" fileLocation="D:\Объекты\Московское 15 котельная\Git222\Project_kot\Kotelnea\Details\" fileName="л.08.dwg" id="1C7C9" prototypeName="RUS-STAMP-A3">
+<SingleParts>
+<Item>3</Item></SingleParts>
+<DetailObject DetailName="235C" DrawingStyle="Процесс - ОтдДет Профиль 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Все Отд.Профили По № поз. На отд.листах A3 [26.08.2023, 17:07:24]" Scale="1:5" Status="Соответствует модели" Title="поз.3  (5 шт.) I25Б1x4720 С345" drawingType="1" id="1C7C8">
+<SingleParts>
+<Item>3</Item></SingleParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="29.08.2023" drawingNumber="35" drawingType="2" fileLocation="D:\Объекты\Московское 15 котельная\Git222\Project_kot\Kotelnea\Details\" fileName="СФ2-1 л.35.dwg" id="1DC79" prototypeName="RUS-STAMP-KMD-A3-H">
+<MainParts>
+<Item>СФ2-1</Item></MainParts>
+<DetailObject DetailName="2F49" DrawingStyle="Процесс - Колонна, разрезы автоматически" ProcessDescription="Выбранные Гл.эл-ты По № поз. На отд.листах A3 [29.08.2023, 11:53:06]" Scale="1:10" Status="Соответствует модели" Title="Марка СФ2-1 (2 шт.)" drawingType="2" id="1DC78">
+<MainParts>
+<Item>СФ2-1</Item></MainParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="29.08.2023" drawingNumber="41" drawingType="2" fileLocation="D:\Объекты\Московское 15 котельная\Git222\Project_kot\Kotelnea\Details\" fileName="П2-1 л.41.dwg" id="1DE87" prototypeName="RUS-STAMP-KMD-A3-H">
+<MainParts>
+<Item>П2-1</Item></MainParts>
+<DetailObject DetailName="2F49" DrawingStyle="Распорная труба - спереди,снизу" ProcessDescription="Выбранные Гл.эл-ты По № поз. На отд.листах A3 [29.08.2023, 14:16:36]" Scale="1:10" Status="Соответствует модели" Title="Связь П2-1 (2 шт.)" drawingType="2" id="1DE86">
+<MainParts>
+<Item>П2-1</Item></MainParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="29.08.2023" drawingNumber="36" drawingType="2" fileLocation="D:\Объекты\Московское 15 котельная\Git222\Project_kot\Kotelnea\Details\" fileName="СФ2-2 л.36.dwg" id="1DC7D" prototypeName="RUS-STAMP-KMD-A3-H">
+<MainParts>
+<Item>СФ2-2</Item></MainParts>
+<DetailObject DetailName="2F49" DrawingStyle="Процесс - Колонна, разрезы автоматически" ProcessDescription="Выбранные Гл.эл-ты По № поз. На отд.листах A3 [29.08.2023, 11:53:06]" Scale="1:10" Status="Соответствует модели" Title="Марка СФ2-2 (2 шт.)" drawingType="2" id="1DC7C">
+<MainParts>
+<Item>СФ2-2</Item></MainParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="28.08.2023" drawingNumber="09" drawingType="1" fileLocation="D:\Объекты\Московское 15 котельная\Git222\Project_kot\Kotelnea\Details\" fileName="л.09.dwg" id="1C7CD" prototypeName="RUS-STAMP-A3">
+<SingleParts>
+<Item>4</Item></SingleParts>
+<DetailObject DetailName="235C" DrawingStyle="Процесс - ОтдДет Профиль 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Все Отд.Профили По № поз. На отд.листах A3 [26.08.2023, 17:07:24]" Scale="1:5" Status="Соответствует модели" Title="поз.4  (4 шт.) Гн.  100x50x5x3535 С255" drawingType="1" id="1C7CC">
+<SingleParts>
+<Item>4</Item></SingleParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="28.08.2023" drawingNumber="19" drawingType="1" fileLocation="D:\Объекты\Московское 15 котельная\Git222\Project_kot\Kotelnea\Details\" fileName="л.19.dwg" id="1C7F5" prototypeName="RUS-STAMP-A3">
+<SingleParts>
+<Item>14</Item></SingleParts>
+<DetailObject DetailName="235C" DrawingStyle="Процесс - ОтдДет Профиль 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Все Отд.Профили По № поз. На отд.листах A3 [26.08.2023, 17:07:24]" Scale="1:5" Status="Соответствует модели" Title="поз.14  (2 шт.) I25Б1x4720 С345" drawingType="1" id="1C7F4">
+<SingleParts>
+<Item>14</Item></SingleParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="29.08.2023" drawingNumber="27" drawingType="2" fileLocation="D:\Объекты\Московское 15 котельная\Git222\Project_kot\Kotelnea\Details\" fileName="К3-3 л.27.dwg" id="1D6AB" prototypeName="RUS-STAMP-KMD-A3-H">
+<MainParts>
+<Item>К3-3</Item></MainParts>
+<DetailObject DetailName="2F49" DrawingStyle="Процесс - Колонна, разрезы автоматически" ProcessDescription="Выбранные Гл.эл-ты По № поз. На отд.листах A3 [28.08.2023, 13:17:35]" Scale="1:10" Status="Соответствует модели" Title="Марка К3-3 (1 шт.)" drawingType="2" id="1D6AA">
+<MainParts>
+<Item>К3-3</Item></MainParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="29.08.2023" drawingNumber="54" drawingType="1" fileLocation="D:\Объекты\Московское 15 котельная\Git222\Project_kot\Kotelnea\Details\" fileName="л.54.dwg" id="1DF30" prototypeName="RUS-STAMP-KMD-A4-V">
+<SingleParts>
+<Item>29</Item></SingleParts>
+<DetailObject DetailName="1D6C" DrawingStyle="Процесс - ОтдДет пластина 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Выбранные Отд.Пластины По № поз. На отд.листах A4 [29.08.2023, 15:11:23]" Scale="1:3" Status="Соответствует модели" Title="поз.29 (M1:3) t10x241x140 С235 " drawingType="1" id="1DF2F">
+<SingleParts>
+<Item>29</Item></SingleParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="28.08.2023" drawingNumber="25" drawingType="2" fileLocation="D:\Объекты\Московское 15 котельная\Git222\Project_kot\Kotelnea\Details\" fileName="К3-1 л.25.dwg" id="1D6A3" prototypeName="RUS-STAMP-KMD-A3-H">
+<MainParts>
+<Item>К3-1</Item></MainParts>
+<DetailObject DetailName="2F49" DrawingStyle="Процесс - Колонна, разрезы автоматически" ProcessDescription="Выбранные Гл.эл-ты По № поз. На отд.листах A3 [28.08.2023, 13:17:35]" Scale="1:10" Status="Соответствует модели" Title="Марка К3-1 (1 шт.)" drawingType="2" id="1D6A2">
+<MainParts>
+<Item>К3-1</Item></MainParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="29.08.2023" drawingNumber="45" drawingType="1" fileLocation="D:\Объекты\Московское 15 котельная\Git222\Project_kot\Kotelnea\Details\" fileName="л.45.dwg" id="1DF0C" prototypeName="RUS-STAMP-KMD-A4-V">
+<SingleParts>
+<Item>20</Item></SingleParts>
+<DetailObject DetailName="1D6C" DrawingStyle="Процесс - ОтдДет пластина 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Выбранные Отд.Пластины По № поз. На отд.листах A4 [29.08.2023, 15:11:23]" Scale="1:5" Status="Соответствует модели" Title="поз.20 (M1:5) t10x195x152 С235 " drawingType="1" id="1DF0B">
+<SingleParts>
+<Item>20</Item></SingleParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="29.08.2023" drawingNumber="38" drawingType="2" fileLocation="D:\Объекты\Московское 15 котельная\Git222\Project_kot\Kotelnea\Details\" fileName="СФ4-1 л.38.dwg" id="1DC85" prototypeName="RUS-STAMP-KMD-A3-H">
+<MainParts>
+<Item>СФ4-1</Item></MainParts>
+<DetailObject DetailName="2F49" DrawingStyle="Процесс - Колонна, разрезы автоматически" ProcessDescription="Выбранные Гл.эл-ты По № поз. На отд.листах A3 [29.08.2023, 11:53:06]" Scale="1:10" Status="Соответствует модели" Title="Марка СФ4-1 (2 шт.)" drawingType="2" id="1DC84">
+<MainParts>
+<Item>СФ4-1</Item></MainParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="29.08.2023" drawingNumber="05" drawingType="2" fileLocation="D:\Объекты\Московское 15 котельная\Git222\Project_kot\Kotelnea\Details\" fileName="К2-2 л.05.dwg" id="1D69B" prototypeName="RUS-STAMP-KMD-A3-H">
+<MainParts>
+<Item>К2-2</Item></MainParts>
+<DetailObject DetailName="2F49" DrawingStyle="Процесс - Колонна, разрезы автоматически" ProcessDescription="Выбранные Гл.эл-ты По № поз. На отд.листах A3 [28.08.2023, 13:17:35]" Scale="1:10" Status="Соответствует модели" Title="Марка К2-2 (1 шт.)" drawingType="2" id="1D69A">
+<MainParts>
+<Item>К2-2</Item></MainParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="29.08.2023" drawingNumber="57" drawingType="1" fileLocation="D:\Объекты\Московское 15 котельная\Git222\Project_kot\Kotelnea\Details\" fileName="л.57.dwg" id="1DF3C" prototypeName="RUS-STAMP-KMD-A4-V">
+<SingleParts>
+<Item>32</Item></SingleParts>
+<DetailObject DetailName="1D6C" DrawingStyle="Процесс - ОтдДет пластина 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Выбранные Отд.Пластины По № поз. На отд.листах A4 [29.08.2023, 15:11:23]" Scale="1:5" Status="Соответствует модели" Title="поз.32 (M1:5) t10x260x70 С235 " drawingType="1" id="1DF3B">
+<SingleParts>
+<Item>32</Item></SingleParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="28.08.2023" drawingNumber="17" drawingType="1" fileLocation="D:\Объекты\Московское 15 котельная\Git222\Project_kot\Kotelnea\Details\" fileName="л.17.dwg" id="1C7ED" prototypeName="RUS-STAMP-A3">
+<SingleParts>
+<Item>12</Item></SingleParts>
+<DetailObject DetailName="235C" DrawingStyle="Процесс - ОтдДет Профиль 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Все Отд.Профили По № поз. На отд.листах A3 [26.08.2023, 17:07:24]" Scale="1:5" Status="Соответствует модели" Title="поз.12  (2 шт.) I20Ш1x3166 С345" drawingType="1" id="1C7EC">
+<SingleParts>
+<Item>12</Item></SingleParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="29.08.2023" drawingNumber="34" drawingType="2" fileLocation="D:\Объекты\Московское 15 котельная\Git222\Project_kot\Kotelnea\Details\" fileName="СФ1-1 л.34.dwg" id="1DC75" prototypeName="RUS-STAMP-KMD-A3-H">
+<MainParts>
+<Item>СФ1-1</Item></MainParts>
+<DetailObject DetailName="2F49" DrawingStyle="Процесс - Колонна, разрезы автоматически" ProcessDescription="Выбранные Гл.эл-ты По № поз. На отд.листах A3 [29.08.2023, 11:53:06]" Scale="1:10" Status="Соответствует модели" Title="Марка СФ1-1 (8 шт.)" drawingType="2" id="1DC74">
+<MainParts>
+<Item>СФ1-1</Item></MainParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="29.08.2023" drawingNumber="37" drawingType="2" fileLocation="D:\Объекты\Московское 15 котельная\Git222\Project_kot\Kotelnea\Details\" fileName="СФ3-2 л.37.dwg" id="1DC8E" prototypeName="RUS-STAMP-KMD-A3-H">
+<MainParts>
+<Item>СФ3-2</Item></MainParts>
+<DetailObject DetailName="2F49" DrawingStyle="Процесс - Колонна, разрезы автоматически" ProcessDescription="Выбранные Гл.эл-ты По № поз. На отд.листах A3 [29.08.2023, 12:19:50]" Scale="1:10" Status="Соответствует модели" Title="Марка СФ3-2 (4 шт.)" drawingType="2" id="1DC8D">
+<MainParts>
+<Item>СФ3-2</Item></MainParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="29.08.2023" drawingNumber="30" drawingType="2" fileLocation="D:\Объекты\Московское 15 котельная\Git222\Project_kot\Kotelnea\Details\" fileName="Б3-1 л.30.dwg" id="1DB18" prototypeName="RUS-STAMP-KMD-A3-H">
+<MainParts>
+<Item>Б3-1</Item></MainParts>
+<DetailObject DetailName="2F49" DrawingStyle="Процесс - Балка, разрезы автоматически" ProcessDescription="Выбранные Гл.эл-ты По № поз. На отд.листах A3 [29.08.2023, 11:08:05]" Scale="1:10" Status="Соответствует модели" Title="Марка Б3-1 (2 шт.)" drawingType="2" id="1DB17">
+<MainParts>
+<Item>Б3-1</Item></MainParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="29.08.2023" drawingNumber="51" drawingType="1" fileLocation="D:\Объекты\Московское 15 котельная\Git222\Project_kot\Kotelnea\Details\" fileName="л.51.dwg" id="1DF24" prototypeName="RUS-STAMP-KMD-A4-V">
+<SingleParts>
+<Item>26</Item></SingleParts>
+<DetailObject DetailName="1D6C" DrawingStyle="Процесс - ОтдДет пластина 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Выбранные Отд.Пластины По № поз. На отд.листах A4 [29.08.2023, 15:11:23]" Scale="1:3" Status="Соответствует модели" Title="поз.26 (M1:3) t10x173x143 С235 " drawingType="1" id="1DF23">
+<SingleParts>
+<Item>26</Item></SingleParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="29.08.2023" drawingNumber="29" drawingType="2" fileLocation="D:\Объекты\Московское 15 котельная\Git222\Project_kot\Kotelnea\Details\" fileName="Б2-1 л.29.dwg" id="1DB14" prototypeName="RUS-STAMP-KMD-A3-H">
+<MainParts>
+<Item>Б2-1</Item></MainParts>
+<DetailObject DetailName="2F49" DrawingStyle="Процесс - Балка, разрезы автоматически" ProcessDescription="Выбранные Гл.эл-ты По № поз. На отд.листах A3 [29.08.2023, 11:08:05]" Scale="1:10" Status="Соответствует модели" Title="Марка Б2-1 (2 шт.)" drawingType="2" id="1DB13">
+<MainParts>
+<Item>Б2-1</Item></MainParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="29.08.2023" drawingNumber="59" drawingType="1" fileLocation="D:\Объекты\Московское 15 котельная\Git222\Project_kot\Kotelnea\Details\" fileName="л.59.dwg" id="1DF44" prototypeName="RUS-STAMP-KMD-A4-V">
+<SingleParts>
+<Item>34</Item></SingleParts>
+<DetailObject DetailName="1D6C" DrawingStyle="Процесс - ОтдДет пластина 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Выбранные Отд.Пластины По № поз. На отд.листах A4 [29.08.2023, 15:11:23]" Scale="1:5" Status="Соответствует модели" Title="поз.34 (M1:5) t10x190x190 С235 " drawingType="1" id="1DF43">
+<SingleParts>
+<Item>34</Item></SingleParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="29.08.2023" drawingNumber="28" drawingType="2" fileLocation="D:\Объекты\Московское 15 котельная\Git222\Project_kot\Kotelnea\Details\" fileName="Б1-1 л.28.dwg" id="1DB10" prototypeName="RUS-STAMP-KMD-A3-H">
+<MainParts>
+<Item>Б1-1</Item></MainParts>
+<DetailObject DetailName="2F49" DrawingStyle="Процесс - Балка, разрезы автоматически" ProcessDescription="Выбранные Гл.эл-ты По № поз. На отд.листах A3 [29.08.2023, 11:08:05]" Scale="1:10" Status="Соответствует модели" Title="Марка Б1-1 (2 шт.)" drawingType="2" id="1DB0F">
+<MainParts>
+<Item>Б1-1</Item></MainParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="29.08.2023" drawingNumber="33" drawingType="2" fileLocation="D:\Объекты\Московское 15 котельная\Git222\Project_kot\Kotelnea\Details\" fileName="СВ2-1 л.33.dwg" id="1DC71" prototypeName="RUS-STAMP-KMD-A3-H">
+<MainParts>
+<Item>СВ2-1</Item></MainParts>
+<DetailObject DetailName="2F49" DrawingStyle="Процесс - Балка, разрезы автоматически" ProcessDescription="Выбранные Гл.эл-ты По № поз. На отд.листах A3 [29.08.2023, 11:53:06]" Scale="1:10" Status="Соответствует модели" Title="Марка СВ2-1 (2 шт.)" drawingType="2" id="1DC70">
+<MainParts>
+<Item>СВ2-1</Item></MainParts></DetailObject></DetailFile></Details>
 <BOMs/>
 <DSTVFiles/></DerivedDocuments></modelExtract>
 
