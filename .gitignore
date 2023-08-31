@@ -1,7 +1,4 @@
 # Ignore IDE specific files
-.bak
-.bak1
-.bak2
-.bak
-
-
+*.bak
+*.bak1
+*.bak2
